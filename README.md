@@ -14,7 +14,7 @@ Yii 2高级项目模板是一个最基本的 [Yii 2](http://www.yiiframework.com
 
 * [安装](start-installation.md)
 * [与基本项目模板的区别](start-comparison.md)
-* [配置Composer](start-composer.md
+* [配置Composer](start-composer.md)
 * [运行测试](start-testing.md)
 
 框架结构
