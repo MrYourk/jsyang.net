@@ -37,12 +37,14 @@ AppAsset::register($this);
     ]);
     $menuItems = [
         ['label' => '首页', 'url' => ['/site/index']],
-        ['label' => '关于我们', 'url' => ['/site/about']],
-        ['label' => '文章', 'url' => ['/site/contact']],
+        ['label' => '走进万裕', 'url' => ['/site/about']],
+        ['label' => '万裕业务', 'url' => ['/site/contact']],
+        ['label' => '新闻中心', 'url' => ['/site/news']],
+        ['label' => '万裕视频', 'url' => ['/site/video']],
+        ['label' => '联系我们', 'url' => ['/site/video']],
     ];
     if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => '注册', 'url' => ['/site/signup']];
-        $menuItems[] = ['label' => '登录', 'url' => ['/site/login']];
+
     } else {
         $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
