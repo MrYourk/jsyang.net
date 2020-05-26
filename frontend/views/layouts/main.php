@@ -29,19 +29,20 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => Yii::$app->name,
+        'brandLabel' => Yii::t('common','Blog'),
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
     ]);
     $menuItems = [
-        ['label' => '首页', 'url' => ['/site/index']],
-        ['label' => '走进万裕', 'url' => ['/site/about']],
-        ['label' => '万裕业务', 'url' => ['/site/contact']],
-        ['label' => '新闻中心', 'url' => ['/site/news']],
-        ['label' => '万裕视频', 'url' => ['/site/video']],
-        ['label' => '联系我们', 'url' => ['/site/video']],
+        ['label' => Yii::t('common','Home'), 'url' => ['/site/index']],
+        ['label' => Yii::t('common','About'), 'url' => ['/site/about']],
+        ['label' => Yii::t('common','Contact'), 'url' => ['/site/contact']],
+        ['label' => Yii::t('common','News'), 'url' => ['/site/news']],
+        ['label' => Yii::t('common','Video'), 'url' => ['/site/video']],
+        ['label' => Yii::t('common','Job'), 'url' => ['/site/Job']],
+        ['label' => Yii::t('common','Lists'), 'url' => ['/site/lists']],
     ];
     if (Yii::$app->user->isGuest) {
 
