@@ -2,7 +2,12 @@
 
 /* @var $this yii\web\View */
 
+use frontend\assets\AppAsset;
+
+AppAsset::register($this);
+
 $this->title = Yii::t('common','Blog');
+
 ?>
 <div class="site-index">
 
