@@ -25,8 +25,8 @@ use yii\helpers\Url;
 
                         <div class="info content-box">
 
-                            <h3>岗位信息介绍</h3>
-                            <p>岗位职责:</p>
+                            <h3>法务经理</h3>
+                            <h5>岗位职责:</h5>
                             <blockquote>
                                 <p>1、建立和完善集团的法务管理体系，包括合同法务管理、投资法务管理、诉讼法务管理、综合法务管理；</p>
                                 <p>2、为集团各项经营管理活动及各区域公司重大经营管理活动提供法律咨询与支持，出具法律意见；</p>
@@ -39,7 +39,7 @@ use yii\helpers\Url;
                                 <p>9、参与各区域法务负责人、各区域法务工作的考核；</p>
                                 <p>10、对集团内部涉嫌违法行为，提出纠正意见，负责协调有关部门予以整改，构成犯罪的移交司法机关依法处理</p>
                             </blockquote>
-                            <p>岗位要求：</p>
+                            <h5>岗位要求：</h5>
                             <blockquote>
                                 <p> 1、本科及以上学历，法学相关专业，取得法律职业资格证；</p>
                                 <p> 2、3-5年相关工作经验；</p>
@@ -47,15 +47,7 @@ use yii\helpers\Url;
                                 <p> 4、具备较强的文字表达能力、组织协调能力和沟通能力；</p>
                                 <p> 5、思维活跃，有良好的责任心和职业素养具备出色的沟通应变能力和沉稳细致的行事风格</p>
                             </blockquote>
-                            <p>
-                                内容2
-                            </p>
-                            <blockquote>
-                                <p>
-                                    说明
-                                </p>
-                            </blockquote>
-
+                          
                             <!-- Start Post Pagination -->
                             <div class="post-pagi-area">
                                 <a href="#"><i class="fas fa-angle-double-left"></i> 上一篇</a>

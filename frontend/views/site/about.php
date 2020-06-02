@@ -3,32 +3,13 @@
 use yii\helpers\Url;
 ?>
 
-<!-- Start Breadcrumb
-============================================= -->
-<div class="breadcrumb-area bg-fixed text-center text-light" style="background-image: url(assets/img/banner/5.jpg);">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="breadcrumb-items">
-                    <h1>About Us</h1>
-                    <ul class="breadcrumb">
-                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                        <li><a href="#">Pages</a></li>
-                        <li class="active">About</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Breadcrumb -->
 
 <!-- Start Our About
 ============================================= -->
 <div class="about-area default-padding">
     <!-- Side Bg -->
     <div class="side-bg">
-        <img src="assets/img/shape-2.png" alt="Thumb">
+        <img src="home/img/shape-2.png" alt="Thumb">
     </div>
     <!-- End Side Bg -->
     <div class="container">
@@ -58,7 +39,7 @@ use yii\helpers\Url;
                 </div>
                 <div class="col-md-6 thumb-box inc-video">
                     <div class="thumb">
-                        <img src="assets/img/about/6.jpg" alt="Thumb">
+                        <img src="home/img/about/6.jpg" alt="Thumb">
                         <div class="video">
                             <a href="https://www.youtube.com/watch?v=owhuBrGIOsE" class="popup-youtube video-play-button item-center">
                                 <i class="fa fa-play"></i>
