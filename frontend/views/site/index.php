@@ -1,52 +1,169 @@
 <?php
+use yii\helpers\Url;
 
-/* @var $this yii\web\View */
-
-use frontend\assets\AppAsset;
-
-AppAsset::register($this);
-
-$this->title = Yii::t('common','Blog');
 
 ?>
-<div class="site-index">
 
 
 
-    <div class="body-content">
-
+<!-- Start Our About
+  ============================================= -->
+<div class="about-area default-padding">
+    <!-- Side Bg -->
+    <div class="side-bg">
+        <img src="home/img/shape-2.png" alt="Thumb">
+    </div>
+    <!-- End Side Bg -->
+    <div class="container">
         <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+            <!-- Start About -->
+            <div class="about-content">
+                <div class="col-md-6 about-items left-content">
+                    <h2>万裕（集团）有限公司简介</h2>
+                    <p>
+                        <b>万裕</b>创于一九八六年的香港“汉华企业”起步，万裕集团经过二十多载的岁月洗礼，市场磨砺和文化积淀，今天已经发展成为一家以文化产业为主业，带动房地产，生物制药业发展，以感光器材、防伪技术、物业管理、建筑、贸易及包装材料为副业，在香港、美国、新加坡和中国大陆各地均有子集团和分支公司及机构，拥有近二十多亿资产和三千多名员工的多元化大型跨国企业集团.
+                    </p>
+                    <ul>
+                        <li>
+                            <h5>test</h5>
+                            <p>
+                                显示那种方案最合理.
+                            </p>
+                        </li>
+                        <li>
+                            <h5>test</h5>
+                            <p>
+                                显示什么方案.
+                            </p>
+                        </li>
+                    </ul>
+                    <a class="btn btn-md btn-contact" href="#"><i class="fas fa-phone"></i> +123 456 7890</a>
+                </div>
+                <div class="col-md-6 thumb-box inc-video">
+                    <div class="thumb">
+                        <a href="<?= Url::toRoute('site/about')?>"><img src="home/img/about/6.jpg" alt="Thumb"></a>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
-            </div>
+            <!-- End About -->
         </div>
-
     </div>
 </div>
+<!-- End Our About -->
+
+
+<!-- Start Services
+   ============================================= -->
+<div class="services-area carousel-shadow inc-list bg-gray default-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="site-heading text-center">
+                    <h2>业务介绍</h2>
+                    <p>
+                        While mirth large of on front. Ye he greater related adapted proceed entered an. Through it examine express promise no. Past add size game cold girl off how old
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="services-items services-carousel owl-carousel owl-theme text-center">
+                    <!-- Single Item -->
+                    <div class="item">
+                        <div class="thumb">
+                            <img src="home/img/services/1.jpg" alt="Thumb">
+                            <div class="icon">
+                                <i class="flaticon-analysis-1"></i>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h4>
+                                <a href="#">房地产开发</a>
+                            </h4>
+                            <div class="list">
+                                <ul>
+                                    <li>Make a budget</li>
+                                    <li>Track your expenses</li>
+                                    <li>Start saving</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btn circle btn-theme border btn-sm">阅读更多</a>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="item">
+                        <div class="thumb">
+                            <img src="home/img/services/2.jpg" alt="Thumb">
+                            <div class="icon">
+                                <i class="flaticon-plan"></i>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h4>
+                                <a href="#">昆明制药</a>
+                            </h4>
+                            <div class="list">
+                                <ul>
+                                    <li>Provident Fund</li>
+                                    <li>Fixed deposit</li>
+                                    <li>Taxable Bonds</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btn circle btn-theme border btn-sm">阅读更多</a>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="item">
+                        <div class="thumb">
+                            <img src="home/img/services/3.jpg" alt="Thumb">
+                            <div class="icon">
+                                <i class="flaticon-piggy-bank"></i>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h4>
+                                <a href="#">教育行业</a>
+                            </h4>
+                            <div class="list">
+                                <ul>
+                                    <li>Money Market</li>
+                                    <li>California Municipal</li>
+                                    <li>Sure Budget</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btn circle btn-theme border btn-sm">阅读更多</a>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="item">
+                        <div class="thumb">
+                            <img src="assets/img/services/4.jpg" alt="Thumb">
+                            <div class="icon">
+                                <i class="flaticon-money"></i>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <h4>
+                                <a href="#">Saving & Investments</a>
+                            </h4>
+                            <div class="list">
+                                <ul>
+                                    <li>Direct equity</li>
+                                    <li>National Pension</li>
+                                    <li>Public Provident</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btn circle btn-theme border btn-sm">Read More</a>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Services -->

@@ -199,24 +199,90 @@ AppAsset::register($this);
 </header>
 <!-- End Header -->
 
-<div class="breadcrumb-area bg-fixed text-center text-light" style="background-image: url(home/img/banner/12.jpg);">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <!--<div class="breadcrumb-items">
-                    <h1>Single Left Sidebar</h1>
-                    <ul class="breadcrumb">
-                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li class="active">SIngle Left Sidebar</li>
-                    </ul>
+
+<!-- Start Banner
+   ============================================= -->
+<div class="banner-area">
+    <div id="bootcarousel" class="carousel slide text-large carousel-fade animate_text" data-ride="carousel">
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner text-light carousel-zoom">
+            <div class="item active">
+                <div class="slider-thumb bg-cover" style="background-image: url(home/img/banner/2.jpg);"></div>
+                <div class="box-table shadow dark">
+                    <div class="box-cell">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="content">
+                                        <h1 data-animation="animated slideInLeft">我们将 为您<strong>提供</strong> 最优质的 服务</h1>
+                                        <div class="lists" data-animation="animated slideInUp">
+                                            <ul>
+                                                <li>
+                                                    <i class="flaticon-hamburger"></i> 地产
+                                                </li>
+                                                <li>
+                                                    <i class="flaticon-champagne-glass"></i> 医药
+                                                </li>
+                                                <li>
+                                                    <i class="flaticon-coffee-cup"></i> 其他产业
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <a data-animation="animated slideInUp" class="btn btn-light border btn-md" href="#">查看项目</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                -->
+            </div>
+            <div class="item">
+                <div class="slider-thumb bg-cover" style="background-image: url(home/img/banner/1.jpg);"></div>
+                <div class="box-table shadow dark">
+                    <div class="box-cell">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="content">
+                                        <h1 data-animation="animated slideInLeft">我们将 为您 <strong>输送</strong>最优质的产业链</h1>
+                                        <div class="lists" data-animation="animated slideInUp">
+                                            <ul>
+                                                <li>
+                                                    <i class="flaticon-hamburger"></i> 地产
+                                                </li>
+                                                <li>
+                                                    <i class="flaticon-champagne-glass"></i> 医药
+                                                </li>
+                                                <li>
+                                                    <i class="flaticon-coffee-cup"></i> 其他产业
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <a data-animation="animated slideInUp" class="btn btn-light border btn-md" href="#">跳转到连接</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- End Wrapper for slides -->
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#bootcarousel" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#bootcarousel" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 </div>
-<!-- End Breadcrumb -->
+<!-- End Banner -->
+
 
 
 <?= $content ?>
