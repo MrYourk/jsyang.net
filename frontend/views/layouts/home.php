@@ -167,8 +167,8 @@ AppAsset::register($this);
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" >新闻中心</a>
                         <ul class="dropdown-menu">
-                            <li><a href="team-carousel.html">集团新闻</a></li>
-                            <li><a href="team-grid.html">最新公告</a></li>
+                            <li><a href="<?= Url::toRoute('news/news')?>">集团新闻</a></li>
+                            <li><a href="<?= Url::toRoute('news/dynamic')?>">最新公告</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -199,24 +199,7 @@ AppAsset::register($this);
 </header>
 <!-- End Header -->
 
-<div class="breadcrumb-area bg-fixed text-center text-light" style="background-image: url(home/img/banner/12.jpg);">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <!--<div class="breadcrumb-items">
-                    <h1>Single Left Sidebar</h1>
-                    <ul class="breadcrumb">
-                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li class="active">SIngle Left Sidebar</li>
-                    </ul>
-                </div>
-                -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Breadcrumb -->
+
 
 
 <?= $content ?>
