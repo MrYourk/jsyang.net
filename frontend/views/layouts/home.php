@@ -25,7 +25,7 @@ AppAsset::register($this);
     <?php $this->head()?>
 
     <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="home/img/favicon.ico" type="image/x-icon">
 
     <!-- ========== Start Stylesheet ========== -->
     <link href="/home/css/bootstrap.min.css" rel="stylesheet" />
@@ -135,7 +135,7 @@ AppAsset::register($this);
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="<?= Url::toRoute('site/index')?>">
                     <img src="/home/img/logo.png" class="logo" alt="Logo">
                 </a>
             </div>
