@@ -1,8 +1,8 @@
 <?php
 
 use yii\helpers\Url;
-$layout = 'test';
 ?>
+
 
 <!-- Start Breadcrumb
 ============================================= -->
@@ -32,14 +32,14 @@ $layout = 'test';
     <div class="container">
         <div class="row">
             <div class="blog-items">
-                <div class="blog-content col-md-8">
+                <div class="blog-content col-md-8" id="test">
+                    <div class="item" >
+                        <div class="info content-box" >
 
-                    <div class="item">
-                        <div class="info content-box">
-                            <h3>法务经理</h3>
+                            <h3>其他职位</h3>
                             <h5>岗位职责:</h5>
                             <blockquote>
-                                <p>1、建立和完善集团的法务管理体系，包括合同法务管理、投资法务管理、诉讼法务管理、综合法务管理；</p>
+                                <p>1、建；</p>
                                 <p>2、为集团各项经营管理活动及各区域公司重大经营管理活动提供法律咨询与支持，出具法律意见；</p>
                                 <p>3、对集团各类合同、协议及各区域公司上报的合同、协议进行审查，提供法律意见，保障集团的合法利益；</p>
                                 <p>4、对集团各类规章制度出具法律意见、提供法律支持；</p>
@@ -58,11 +58,11 @@ $layout = 'test';
                                 <p> 4、具备较强的文字表达能力、组织协调能力和沟通能力；</p>
                                 <p> 5、思维活跃，有良好的责任心和职业素养具备出色的沟通应变能力和沉稳细致的行事风格</p>
                             </blockquote>
-                          
+
                             <!-- Start Post Pagination -->
                             <div class="post-pagi-area">
                                 <a href="#"><i class="fas fa-angle-double-left"></i> 上一篇</a>
-                                <a href="<?= Url::toRoute('hr/hr_1')?>">下一篇 <i class="fas fa-angle-double-right"></i></a>
+                                <a href="#">下一篇 <i class="fas fa-angle-double-right"></i></a>
                             </div>
                             <!-- End Post Pagination -->
 
@@ -96,10 +96,10 @@ $layout = 'test';
                             <div class="sidebar-info">
                                 <ul>
                                     <li>
-                                        <a href="<?= Url::toRoute('hr/idea')?>">人才理念 <span>1</span></a>
+                                        <a href="<?= Url::toRoute('hr/idea')?>">人才理念 <span></span></a>
                                     </li>
                                     <li>
-                                        <a href="<?= Url::toRoute('hr/index')?>">招聘岗位 <span>3</span></a>
+                                        <a href="<?= Url::toRoute('hr/index')?>">招聘岗位 <span></span></a>
                                     </li>
 
                                 </ul>
@@ -159,3 +159,4 @@ $layout = 'test';
     </div>
 </div>
 <!-- End Blog -->
+

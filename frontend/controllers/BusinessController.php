@@ -8,15 +8,14 @@ use yii\web\Controller;
 
 
 /**
- * HrController
+ * BusinessController   业务范围
  */
-
-class HrController extends Controller
+class BusinessController extends Controller
 {
-    public $layout = 'home';
     /**
-     * hr_Recruitment position
+     * index    地产开发
      */
+    public $layout = 'home';
 
     public function actionIndex()
     {
@@ -24,18 +23,14 @@ class HrController extends Controller
     }
 
     /**
-     * hr_Idea
+     * medicine    医药
      */
-    public function actionIdea()
+    public function actionMedicine()
     {
-        return $this->render('idea');
+        return $this->render('medicine');
     }
 
     /**
-     * hr_1
+     *
      */
-
-    public function actionHr_1(){
-        return $this->render('hr_1');
-    }
 }

@@ -153,15 +153,13 @@ AppAsset::register($this);
                         <ul class="dropdown-menu">
                             <li><a href="<?= Url::toRoute('site/about')?>">企业介绍</a></li>
                             <li><a href="contact.html">创始人致辞</a></li>
-                            <li><a href="pricing-table.html">视频播放</a></li>
-                            <li><a href="404.html">开发中...</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" >万裕业务</a>
                         <ul class="dropdown-menu">
-                            <li><a href="services-grid.html">地产开发</a></li>
-                            <li><a href="services-carousel.html">医药产业</a></li>
+                            <li><a href="<?= Url::to('business/index')?>">地产开发</a></li>
+                            <li><a href="<?= Url::to('business/medicine')?>">医药产业</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">

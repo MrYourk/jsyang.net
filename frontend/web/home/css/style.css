@@ -2910,7 +2910,7 @@ i.fas.fa-clock {
 
 .blog-area .blog-items .info {
   padding: 30px;
-  padding-top: 50px;
+  padding-top: 0px;
 }
 
 .blog-area .blog-items .info a:hover {

@@ -1,11 +1,36 @@
-1<?php
-
+<?php
 use yii\helpers\Url;
+
+$layout = 'index';
 ?>
+
+<!-- Start Breadcrumb
+============================================= -->
+<div class="breadcrumb-area bg-fixed text-center text-light" style="background-image: url(home/img/banner/3.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <!--<div class="breadcrumb-items">
+                    <h1>Single Left Sidebar</h1>
+                    <ul class="breadcrumb">
+                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li class="active">SIngle Left Sidebar</li>
+                    </ul>
+                </div>
+                -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Breadcrumb -->
+
+<!-- Start Blog
+============================================= -->
 
 
 <!-- Start Our About
-============================================= -->
+  ============================================= -->
 <div class="about-area default-padding">
     <!-- Side Bg -->
     <div class="side-bg">
@@ -17,21 +42,21 @@ use yii\helpers\Url;
             <!-- Start About -->
             <div class="about-content">
                 <div class="col-md-6 about-items left-content">
-                    <h2>We have <span>35+ Years</span> of experiance in standard professional services</h2>
+                    <h2>万裕（集团）有限公司简介</h2>
                     <p>
-                        Perceived end knowledge certainly day sweetness why cordially. Ask quick six seven offer see among. Handsome met debating sir dwelling age material. As style lived he worse dried. Offered related so visitor we private removed.
+                        <b>万裕</b>创于一九八六年的香港“汉华企业”起步，万裕集团经过二十多载的岁月洗礼，市场磨砺和文化积淀，今天已经发展成为一家以文化产业为主业，带动房地产，生物制药业发展，以感光器材、防伪技术、物业管理、建筑、贸易及包装材料为副业，在香港、美国、新加坡和中国大陆各地均有子集团和分支公司及机构，拥有近二十多亿资产和三千多名员工的多元化大型跨国企业集团.
                     </p>
                     <ul>
                         <li>
-                            <h5>First Working Process</h5>
+                            <h5>test</h5>
                             <p>
-                                Strangers ye to he sometimes propriety in. She right plate seven has. Bed who perceive judgment did marianne.
+                                显示那种方案最合理.
                             </p>
                         </li>
                         <li>
-                            <h5>24/7 Live Support</h5>
+                            <h5>test</h5>
                             <p>
-                                Strangers ye to he sometimes propriety in. She right plate seven has. Bed who perceive judgment did marianne.
+                                显示什么方案.
                             </p>
                         </li>
                     </ul>
@@ -39,12 +64,7 @@ use yii\helpers\Url;
                 </div>
                 <div class="col-md-6 thumb-box inc-video">
                     <div class="thumb">
-                        <img src="home/img/about/6.jpg" alt="Thumb">
-                        <div class="video">
-                            <a href="https://www.youtube.com/watch?v=owhuBrGIOsE" class="popup-youtube video-play-button item-center">
-                                <i class="fa fa-play"></i>
-                            </a>
-                        </div>
+                        <a href="<?= Url::toRoute('site/about')?>"><img src="home/img/about/6.jpg" alt="Thumb"></a>
                     </div>
                 </div>
             </div>
@@ -54,58 +74,18 @@ use yii\helpers\Url;
 </div>
 <!-- End Our About -->
 
-<div class="office-environment-area bg-gray default-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 heading">
-                <h2>Office Environment</h2>
-                <p>
-                    Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.
-                </p>
-                <a href="#" class="btn btn-theme border btn-md">View All</a>
-            </div>
-            <div class="col-md-8">
-                <div class="office-environment-items text-light environment-carousel owl-carousel owl-theme">
-                    <div class="item">
-                        <a href="#">
-                            <img src="assets/img/environment/1.jpg" alt="Thumb">
-                            <div class="overlay">
-                                <span>work</span>
-                                <h4>Peaceful workstation</h4>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="#">
-                            <img src="assets/img/environment/2.jpg" alt="Thumb">
-                            <div class="overlay">
-                                <span>sports</span>
-                                <h4>Sports facilities</h4>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="#">
-                            <img src="assets/img/environment/3.jpg" alt="Thumb">
-                            <div class="overlay">
-                                <span>health</span>
-                                <h4>Fitness and health</h4>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Office Environment -->
 
-<div class="services-area carousel-shadow inc-list default-padding">
+
+
+
+<!-- Start Services
+   ============================================= -->
+<div class="services-area carousel-shadow inc-list bg-gray default-padding">
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="site-heading text-center">
-                    <h2>Our Services</h2>
+                    <h2>业务介绍</h2>
                     <p>
                         While mirth large of on front. Ye he greater related adapted proceed entered an. Through it examine express promise no. Past add size game cold girl off how old
                     </p>
@@ -118,14 +98,14 @@ use yii\helpers\Url;
                     <!-- Single Item -->
                     <div class="item">
                         <div class="thumb">
-                            <img src="assets/img/services/1.jpg" alt="Thumb">
+                            <img src="home/img/services/1.jpg" alt="Thumb">
                             <div class="icon">
                                 <i class="flaticon-analysis-1"></i>
                             </div>
                         </div>
                         <div class="info">
                             <h4>
-                                <a href="#">Financial Planning</a>
+                                <a href="#">房地产开发</a>
                             </h4>
                             <div class="list">
                                 <ul>
@@ -134,21 +114,21 @@ use yii\helpers\Url;
                                     <li>Start saving</li>
                                 </ul>
                             </div>
-                            <a href="#" class="btn circle btn-theme border btn-sm">Read More</a>
+                            <a href="#" class="btn circle btn-theme border btn-sm">阅读更多</a>
                         </div>
                     </div>
                     <!-- End Single Item -->
                     <!-- Single Item -->
                     <div class="item">
                         <div class="thumb">
-                            <img src="assets/img/services/2.jpg" alt="Thumb">
+                            <img src="home/img/services/2.jpg" alt="Thumb">
                             <div class="icon">
                                 <i class="flaticon-plan"></i>
                             </div>
                         </div>
                         <div class="info">
                             <h4>
-                                <a href="#">Investment Planning</a>
+                                <a href="#">昆明制药</a>
                             </h4>
                             <div class="list">
                                 <ul>
@@ -157,21 +137,21 @@ use yii\helpers\Url;
                                     <li>Taxable Bonds</li>
                                 </ul>
                             </div>
-                            <a href="#" class="btn circle btn-theme border btn-sm">Read More</a>
+                            <a href="#" class="btn circle btn-theme border btn-sm">阅读更多</a>
                         </div>
                     </div>
                     <!-- End Single Item -->
                     <!-- Single Item -->
                     <div class="item">
                         <div class="thumb">
-                            <img src="assets/img/services/3.jpg" alt="Thumb">
+                            <img src="home/img/services/3.jpg" alt="Thumb">
                             <div class="icon">
                                 <i class="flaticon-piggy-bank"></i>
                             </div>
                         </div>
                         <div class="info">
                             <h4>
-                                <a href="#">Mutual Funds</a>
+                                <a href="#">教育行业</a>
                             </h4>
                             <div class="list">
                                 <ul>
@@ -180,7 +160,7 @@ use yii\helpers\Url;
                                     <li>Sure Budget</li>
                                 </ul>
                             </div>
-                            <a href="#" class="btn circle btn-theme border btn-sm">Read More</a>
+                            <a href="#" class="btn circle btn-theme border btn-sm">阅读更多</a>
                         </div>
                     </div>
                     <!-- End Single Item -->
