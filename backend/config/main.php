@@ -11,11 +11,6 @@ return [
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
-    'modules' => [
-        'smister' => [
-            'class' => 'backend\models\smister',
-        ],
-    ],
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-backend',
