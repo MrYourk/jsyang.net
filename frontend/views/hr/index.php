@@ -91,12 +91,12 @@ $layout = 'test';
                         </div>
                         <div class="sidebar-item category">
                             <div class="title">
-                                <h4>类别列表</h4>
+                                <h4>加入我们</h4>
                             </div>
                             <div class="sidebar-info">
                                 <ul>
                                     <li>
-                                        <a href="<?= Url::toRoute('hr/idea')?>">人才理念 <span>1</span></a>
+                                        <a href="<?= Url::toRoute('hr/idea')?>">人才理念 <span></span></a>
                                     </li>
                                     <li>
                                         <a href="<?= Url::toRoute('hr/index')?>">招聘岗位 <span>3</span></a>

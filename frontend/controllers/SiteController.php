@@ -115,6 +115,10 @@ class SiteController extends Controller
         return $this->render('about');
     }
 
-
+    public function actionSpeech()
+    {
+        $this->layout = 'home';
+        return $this->render('speech');
+    }
 
 }

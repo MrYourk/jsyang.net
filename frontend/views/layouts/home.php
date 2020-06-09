@@ -67,7 +67,7 @@ AppAsset::register($this);
                                 <i class="ti-map-alt"></i>
                             </div>
                             <div class="info">
-                                <span>地址</span> 深圳市福田车公庙, 金润大厦 6L
+                                <span>地址</span> 深圳市福田车公庙, 金润大厦 6F
                             </div>
                         </li>
                         <li>
@@ -88,7 +88,7 @@ AppAsset::register($this);
             </div>
             <div class="col-md-4 contact">
                 <h4>
-                    <i class="ti-headphone"></i> 电话 <strong> +123 456 7890</strong>
+                    <i class="ti-headphone"></i> 电话 <strong> 0755-82720555</strong>
                 </h4>
             </div>
         </div>
@@ -152,7 +152,7 @@ AppAsset::register($this);
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" >走进万裕</a>
                         <ul class="dropdown-menu">
                             <li><a href="<?= Url::toRoute('site/about')?>">企业介绍</a></li>
-                            <li><a href="contact.html">创始人致辞</a></li>
+                            <li><a href="<?= Url::toRoute('site/speech')?>">创始人致辞</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -182,8 +182,9 @@ AppAsset::register($this);
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" >联系我们</a>
                         <ul class="dropdown-menu">
-                            <li><a href="blog-standard.html">各地公司</a></li>
-                            <li><a href="blog-left-sidebar.html">服务热线</a></li>
+                            <li><a href=" <?= Url::toRoute('contact/contact')?>">联系方式</a></li>
+
+                            <li><a href=" <?= Url::toRoute('contact/position')?>">地理位置</a></li>
                         </ul>
                     </li>
 

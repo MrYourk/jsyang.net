@@ -86,34 +86,8 @@ use yii\helpers\Url;
                                         内容简介
                                     </p>
                                     <div class="bottom">
-                                        <a class="more-btn" href="#">Read More</a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-
-                        <!-- Single Item -->
-                        <div class="single-item">
-                            <div class="item">
-                                <div class="thumb">
-                                    <a href="#">
-                                        <img src="home/img/blog/v3.jpg" alt="Thumb">
-                                    </a>
-                                </div>
-                                <div class="info">
-                                    <div class="cats">
-                                        <a href="#">公司标签</a>
-                                    </div>
-                                    <h4>
-                                        <a href="#">标题 </a>
-                                    </h4>
-                                    <p>
-                                        内容简介
-                                    </p>
-                                    <div class="bottom">
                                         <a class="more-btn" href="#">阅读更多</a>
+
                                     </div>
                                 </div>
                             </div>
@@ -143,7 +117,7 @@ use yii\helpers\Url;
                     <aside>
                         <div class="sidebar-item search">
                             <div class="title">
-                                <h4>Search</h4>
+                                <h4>搜索</h4>
                             </div>
                             <div class="sidebar-info">
                                 <form>
@@ -154,33 +128,27 @@ use yii\helpers\Url;
                                 </form>
                             </div>
                         </div>
+
                         <div class="sidebar-item category">
                             <div class="title">
-                                <h4>category list</h4>
+                                <h4>新闻中心</h4>
                             </div>
                             <div class="sidebar-info">
                                 <ul>
                                     <li>
-                                        <a href="#">national <span>69</span></a>
+                                        <a href="<?= Url::toRoute('news/news')?>">集团新闻 <span></span></a>
                                     </li>
                                     <li>
-                                        <a href="#">national <span>25</span></a>
+                                        <a href="<?= Url::toRoute('news/dynamic')?>">最新公告 <span></span></a>
                                     </li>
                                     <li>
-                                        <a href="#">sports <span>18</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="#">megazine <span>37</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="#">health <span>12</span></a>
-                                    </li>
+
                                 </ul>
                             </div>
                         </div>
                         <div class="sidebar-item recent-post">
                             <div class="title">
-                                <h4>Recent Post</h4>
+                                <h4>集团新闻</h4>
                             </div>
                             <ul>
                                 <li>
@@ -190,7 +158,7 @@ use yii\helpers\Url;
                                         </a>
                                     </div>
                                     <div class="info">
-                                        <a href="#">Participate in staff meetingness</a>
+                                        <a href="#">热烈庆祝明德学院二十周年院庆</a>
                                         <div class="meta-title">
                                             <span class="post-date"><i class="ti-time"></i> 12 Feb, 2020</span>
                                         </div>
@@ -203,7 +171,7 @@ use yii\helpers\Url;
                                         </a>
                                     </div>
                                     <div class="info">
-                                        <a href="#">Future Plan & Strategy for Consutruction </a>
+                                        <a href="#">热烈庆祝明德学院二十周年院庆 </a>
                                         <div class="meta-title">
                                             <span class="post-date"><i class="ti-time"></i> 12 Feb, 2020</span>
                                         </div>
@@ -216,99 +184,13 @@ use yii\helpers\Url;
                                         </a>
                                     </div>
                                     <div class="info">
-                                        <a href="#">Melancholy particular devonshire alteration</a>
+                                        <a href="#">热烈庆祝明德学院二十周年院庆</a>
                                         <div class="meta-title">
                                             <span class="post-date"><i class="ti-time"></i> 12 Feb, 2020</span>
                                         </div>
                                     </div>
                                 </li>
                             </ul>
-                        </div>
-                        <div class="sidebar-item archives">
-                            <div class="title">
-                                <h4>Archives</h4>
-                            </div>
-                            <div class="sidebar-info">
-                                <ul>
-                                    <li><a href="#">Aug 2020</a></li>
-                                    <li><a href="#">Sept 2020</a></li>
-                                    <li><a href="#">Nov 2020</a></li>
-                                    <li><a href="#">Dec 2020</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="sidebar-item gallery">
-                            <div class="title">
-                                <h4>Gallery</h4>
-                            </div>
-                            <div class="sidebar-info">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <img src="home/img/portfolio/8.jpg" alt="thumb">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img src="home/img/portfolio/7.jpg" alt="thumb">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img src="home/img/portfolio/6.jpg" alt="thumb">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img src="home/img/portfolio/5.jpg" alt="thumb">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img src="home/img/portfolio/3.jpg" alt="thumb">
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <img src="home/img/portfolio/2.jpg" alt="thumb">
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="sidebar-item social-sidebar">
-                            <div class="title">
-                                <h4>follow us</h4>
-                            </div>
-                            <div class="sidebar-info">
-                                <ul>
-                                    <li class="facebook">
-                                        <a href="#">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-                                    <li class="twitter">
-                                        <a href="#">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li class="pinterest">
-                                        <a href="#">
-                                            <i class="fab fa-pinterest"></i>
-                                        </a>
-                                    </li>
-                                    <li class="g-plus">
-                                        <a href="#">
-                                            <i class="fab fa-google-plus-g"></i>
-                                        </a>
-                                    </li>
-                                    <li class="linkedin">
-                                        <a href="#">
-                                            <i class="fab fa-linkedin-in"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
 
                     </aside>
