@@ -28,7 +28,7 @@ use yii\helpers\Url;
                 </div>
                 <div class="col-md-6 thumb-box inc-video">
                     <div class="thumb">
-                        <a href="<?= Url::toRoute('site/about')?>"><img src="home/img/about/6.jpg" alt="Thumb"></a>
+                        <a href="<?= Url::toRoute('site/about')?>"><img src="home/img/about/qiantai.jpg" alt="Thumb"></a>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@ use yii\helpers\Url;
                         </div>
                         <div class="info">
                             <h4>
-                                <a href="#">房地产开发</a>
+                                <a href="#">房地产</a>
                             </h4>
                             <div class="list">
                                 <ul>
@@ -86,7 +86,7 @@ use yii\helpers\Url;
                         </div>
                         <div class="info">
                             <h4>
-                                <a href="#">昆明制药</a>
+                                <a href="#">金融</a>
                             </h4>
                             <div class="list">
                                 <ul>
@@ -109,7 +109,7 @@ use yii\helpers\Url;
                         </div>
                         <div class="info">
                             <h4>
-                                <a href="#">教育行业</a>
+                                <a href="#">教育</a>
                             </h4>
                             <div class="list">
                                 <ul>
@@ -132,7 +132,7 @@ use yii\helpers\Url;
                         </div>
                         <div class="info">
                             <h4>
-                                <a href="#">Saving & Investments</a>
+                                <a href="#">康养</a>
                             </h4>
                             <div class="list">
                                 <ul>
@@ -141,7 +141,7 @@ use yii\helpers\Url;
                                     <li>Public Provident</li>
                                 </ul>
                             </div>
-                            <a href="#" class="btn circle btn-theme border btn-sm">Read More</a>
+                            <a href="#" class="btn circle btn-theme border btn-sm">阅读更多</a>
                         </div>
                     </div>
                     <!-- End Single Item -->
@@ -151,3 +151,53 @@ use yii\helpers\Url;
     </div>
 </div>
 <!-- End Services -->
+
+
+
+  <!-- Start Office Environment 
+    ============================================= -->
+    <div class="office-environment-area bg-gray default-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 heading">
+                    <h2>员工风采</h2>
+                    <p>
+                        Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved. 
+                    </p>
+                    <a href="#" class="btn btn-theme border btn-md">View All</a>
+                </div>
+                <div class="col-md-8">
+                    <div class="office-environment-items text-light environment-carousel owl-carousel owl-theme">
+                        <div class="item">
+                            <a href="#">
+                                <img src="home/img/environment/1.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <span>体育</span>
+                                    <h4>运动设施</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="home/img/environment/2.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <span>工作</span>
+                                    <h4>工作站</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="home/img/environment/3.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <span>健康</span>
+                                    <h4>健身与健康</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Office Environment -->

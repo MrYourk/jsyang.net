@@ -154,13 +154,13 @@ use yii\helpers\Url;
                                 <li>
                                     <div class="thumb">
                                         <a href="#">
-                                            <img src="home/img/portfolio/2.jpg" alt="Thumb">
+                                            <img src="home/img/blog/mingde.jpg" alt="Thumb">
                                         </a>
                                     </div>
                                     <div class="info">
-                                        <a href="#">热烈庆祝明德学院二十周年院庆</a>
+                                        <a href="<?= Url::toRoute('news/news')?>">热烈庆祝明德学院二十周年院庆</a>
                                         <div class="meta-title">
-                                            <span class="post-date"><i class="ti-time"></i> 12 Feb, 2020</span>
+                                            <span class="post-date"><i class="ti-time"></i> 10月19日, 2019</span>
                                         </div>
                                     </div>
                                 </li>
@@ -173,7 +173,7 @@ use yii\helpers\Url;
                                     <div class="info">
                                         <a href="#">热烈庆祝明德学院二十周年院庆 </a>
                                         <div class="meta-title">
-                                            <span class="post-date"><i class="ti-time"></i> 12 Feb, 2020</span>
+                                            <span class="post-date"><i class="ti-time"></i> 10月19日, 2019</span>
                                         </div>
                                     </div>
                                 </li>
