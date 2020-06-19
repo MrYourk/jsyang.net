@@ -34,7 +34,7 @@ use yii\helpers\Url;
                         <!-- Start Post Thumb -->
                         <div class="thumb">
                             <a href="#">
-                                <img src="home/img/blog/v3.jpg" alt="Thumb">
+                                <img src="home/img/blog/v2.jpg" alt="Thumb">
                             </a>
                         </div>
                         <!-- Start Post Thumb -->

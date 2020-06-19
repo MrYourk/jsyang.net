@@ -87,7 +87,6 @@ use yii\helpers\Url;
                                     </p>
                                     <div class="bottom">
                                         <a class="more-btn" href="#">阅读更多</a>
-
                                     </div>
                                 </div>
                             </div>
@@ -188,6 +187,11 @@ use yii\helpers\Url;
                                         <div class="meta-title">
                                             <span class="post-date"><i class="ti-time"></i> 12 Feb, 2020</span>
                                         </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="bottom" style="border-top: 0px;">
+                                        <a class="more-btn" href="">阅读更多</a>
                                     </div>
                                 </li>
                             </ul>

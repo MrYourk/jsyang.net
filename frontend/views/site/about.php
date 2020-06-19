@@ -67,7 +67,7 @@ $layout = 'index';
 
 <!-- Start Services
    ============================================= -->
-<div class="services-area carousel-shadow inc-list bg-gray default-padding">
+<div class="services-area carousel-shadow inc-list bg-gray default-padding" style="padding-top: 60px ">
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
@@ -151,7 +151,7 @@ $layout = 'index';
                     <!-- Single Item -->
                     <div class="item">
                         <div class="thumb">
-                            <img src="assets/img/services/4.jpg" alt="Thumb">
+                            <img src="assets/img/services/3.jpg" alt="Thumb">
                             <div class="icon">
                                 <i class="flaticon-money"></i>
                             </div>
