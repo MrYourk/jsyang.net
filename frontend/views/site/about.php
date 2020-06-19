@@ -42,25 +42,12 @@ $layout = 'index';
             <!-- Start About -->
             <div class="about-content">
                 <div class="col-md-6 about-items left-content">
-                    <h2>万裕（集团）有限公司简介</h2>
+                    <h2>万裕房地产开发集团有限公司</h2>
                     <p>
                         <b>万裕</b>创于一九八六年的香港“汉华企业”起步，万裕集团经过二十多载的岁月洗礼，市场磨砺和文化积淀，今天已经发展成为一家以文化产业为主业，带动房地产，生物制药业发展，以感光器材、防伪技术、物业管理、建筑、贸易及包装材料为副业，在香港、美国、新加坡和中国大陆各地均有子集团和分支公司及机构，拥有近二十多亿资产和三千多名员工的多元化大型跨国企业集团.
                     </p>
                     <ul>
-                        <li>
-                            <h5>test</h5>
-                            <p>
-                                显示那种方案最合理.
-                            </p>
-                        </li>
-                        <li>
-                            <h5>test</h5>
-                            <p>
-                                显示什么方案.
-                            </p>
-                        </li>
-                    </ul>
-                    <a class="btn btn-md btn-contact" href="#"><i class="fas fa-phone"></i> +123 456 7890</a>
+                    </ul> 
                 </div>
                 <div class="col-md-6 thumb-box inc-video">
                     <div class="thumb">
@@ -86,9 +73,6 @@ $layout = 'index';
             <div class="col-md-8 col-md-offset-2">
                 <div class="site-heading text-center">
                     <h2>业务介绍</h2>
-                    <p>
-                        While mirth large of on front. Ye he greater related adapted proceed entered an. Through it examine express promise no. Past add size game cold girl off how old
-                    </p>
                 </div>
             </div>
         </div>

@@ -35,7 +35,7 @@
 
                             </div>
 
-                            <h3>董事主席致辞</h3>
+                            <h3>董事会主席致辞</h3>
                             <h5>MESSAGE FROM THE PRESIDENT</h5><br>
                             <p>
                                 万裕，作为一家多元化的跨国集团，二十多年来一向以“万家乐安居“为己任，以“裕业展宏图”为目标，励精图治不断开拓，成绩斐然。近年来，万裕集团与时俱进，以“创造卓越文化生活”为精神使命，致力于文化产业的创新开发力求为全球客户提供满意的文化产品和文化衍生产品跨越迈进，再创辉煌。
@@ -53,19 +53,6 @@
                             <p>
                                 本集团将整合优质资源，随时准备与各界同仁紧密合作，力争经济效益百尺竿头，更进一步，并与新老朋友一道，携手创造市场经济的繁荣，构筑人类社会更加广阔的空间。
                             </p>
-
-
-                            <!-- Start Post Tag s-->
-                            <div class="post-tags share">
-                                <div class="tags">
-                                    <span>Tags: </span>
-                                    <a href="#">Consulting</a>
-                                    <a href="#">Planing</a>
-                                    <a href="#">Business</a>
-                                    <a href="#">Fashion</a>
-                                </div>
-                            </div>
-                            <!-- End Post Tags -->
                         </div>
                         <!-- End Blog Content -->
 

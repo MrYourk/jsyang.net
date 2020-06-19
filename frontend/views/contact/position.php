@@ -37,7 +37,7 @@ use yii\helpers\Url;
                 <div class="blog-content col-md-8">
                     <blockquote>
                             <h2>地理位置</h2><br>
-                            <h4>深圳万裕房地产开发有限公司</h4><br>
+                            <h4>万裕房地产开发集团有限公司</h4><br>
                             <p>地址：深圳市福田区深南大道6019号金润大厦6楼</p>
                         </blockquote>
                         <!-- Start Post Thumb -->

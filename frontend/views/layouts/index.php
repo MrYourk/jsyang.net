@@ -21,7 +21,7 @@ AppAsset::register($this);
 
 
     <!-- ========== Page Title ========== -->
-    <title>万裕房地产开发</title>
+    <title>万裕房地产开发集团</title>
     <?php $this->head()?>
 
     <!-- ========== Favicon Icon ========== -->
@@ -156,10 +156,10 @@ AppAsset::register($this);
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >万裕业务</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >业务板块</a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?= Url::to('business/index')?>">地产开发</a></li>
-                            <li><a href="<?= Url::to('business/medicine')?>">医药产业</a></li>
+                            <li><a href="<?= Url::to('business/index')?>">上市板块</a></li>
+                            <li><a href="<?= Url::to('business/medicine')?>">非上市板块</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
