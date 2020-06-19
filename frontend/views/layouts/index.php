@@ -228,7 +228,6 @@ AppAsset::register($this);
                                                 </li>
                                             </ul>
                                         </div>
-                                        <a data-animation="animated slideInUp" class="btn btn-light border btn-md" href="#">查看项目</a>
                                     </div>
                                 </div>
                             </div>
@@ -258,7 +257,6 @@ AppAsset::register($this);
                                                 </li>
                                             </ul>
                                         </div>
-                                        <a data-animation="animated slideInUp" class="btn btn-light border btn-md" href="#">跳转到连接</a>
                                     </div>
                                 </div>
                             </div>
@@ -269,15 +267,7 @@ AppAsset::register($this);
         </div>
         <!-- End Wrapper for slides -->
 
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#bootcarousel" data-slide="prev">
-            <i class="fa fa-angle-left"></i>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#bootcarousel" data-slide="next">
-            <i class="fa fa-angle-right"></i>
-            <span class="sr-only">Next</span>
-        </a>
+
     </div>
 </div>
 <!-- End Banner -->
