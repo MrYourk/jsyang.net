@@ -51,7 +51,6 @@ AppAsset::register($this);
     <!-- ========== Google Fonts ========== -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
-
 </head>
 <body>
 <!-- Start Header Top
@@ -287,8 +286,9 @@ AppAsset::register($this);
                 <div class="col-md-12">
                     <p>万裕集团 &copy; 版权所有 粤ICP备19141582 </p>
                 </div>
-            </div>
+                
         </div>
+
     </div>
     <!-- End Footer Bottom -->
 </footer>
