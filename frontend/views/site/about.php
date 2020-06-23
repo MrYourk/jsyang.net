@@ -37,6 +37,9 @@ use yii\helpers\Url;
                             </div>
                             <div class="sidebar-info">
                                 <ul>
+                                    <li>
+                                        <a href="<?= Url::toRoute('site/speech')?>">创始人致辞</a>
+                                    </li>
                                    <li>
                                         <a href="<?= Url::toRoute('site/about')?>">企业介绍 </a>
                                     </li>
@@ -45,9 +48,6 @@ use yii\helpers\Url;
                                     </li>
                                      <li>
                                         <a href="<?= Url::toRoute('site/about2')?>">组织架构</a>
-                                    </li>
-                                     <li>
-                                        <a href="<?= Url::toRoute('site/speech')?>">创始人致辞</a>
                                     </li>
                                 </ul>
                             </div>

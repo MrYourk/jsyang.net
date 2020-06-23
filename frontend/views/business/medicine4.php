@@ -45,19 +45,19 @@ use yii\helpers\Url;
                             <div class="sidebar-info">
                                 <ul>
                                     <li>
-                                        <a href="<?= Url::toRoute('business/medicine1')?>">金融 </a>
+                                        <a href="<?= Url::toRoute('business/medicine')?>">金融 </a>
                                     </li>
                                     <li>
-                                        <a href="<?= Url::toRoute('business/medicine2')?>">房地产</a>
+                                        <a href="<?= Url::toRoute('business/medicine1')?>">房地产</a>
                                     </li>
                                     <li>
-                                        <a href="<?= Url::toRoute('business/medicine3')?>">物业管理</a>
+                                        <a href="<?= Url::toRoute('business/medicine2')?>">物业管理</a>
                                     </li>
                                     <li>
-                                        <a href="<?= Url::toRoute('business/medicine4')?>">康养</a>
+                                        <a href="<?= Url::toRoute('business/medicine3')?>">康养</a>
                                     </li>
                                     <li>
-                                        <a href="<?= Url::toRoute('business/medicine5')?>">公益慈善</a>
+                                        <a href="<?= Url::toRoute('business/medicine4')?>">公益慈善</a>
                                     </li>
                                 </ul>
                             </div>

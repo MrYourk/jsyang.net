@@ -76,19 +76,6 @@ $layout = 'test';
                 <!-- Start Sidebar -->
                 <div class="sidebar col-md-4">
                     <aside>
-                        <div class="sidebar-item search">
-                            <div class="title">
-                                <h4>搜索</h4>
-                            </div>
-                            <div class="sidebar-info">
-                                <form>
-                                    <input type="text" class="form-control">
-                                    <button type="submit">
-                                        <i class="ti-search"></i>
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
                         <div class="sidebar-item category">
                             <div class="title">
                                 <h4>加入我们</h4>
@@ -99,7 +86,7 @@ $layout = 'test';
                                         <a href="<?= Url::toRoute('hr/idea')?>">人才理念 <span></span></a>
                                     </li>
                                     <li>
-                                        <a href="<?= Url::toRoute('hr/index')?>">招聘岗位 <span>3</span></a>
+                                        <a href="<?= Url::toRoute('hr/index')?>">人才招聘 <span></span></a>
                                     </li>
 
                                 </ul>
@@ -119,7 +106,7 @@ $layout = 'test';
                                     <div class="info">
                                         <a href="#">岗位1</a>
                                         <div class="meta-title">
-                                            <span class="post-date"><i class="ti-time"></i> 12 Feb, 2020</span>
+                                            <span class="post-date"><i class="ti-time"></i> 06/23 2020</span>
                                         </div>
                                     </div>
                                 </li>
@@ -132,7 +119,7 @@ $layout = 'test';
                                     <div class="info">
                                         <a href="<?= Url::toRoute('hr/index')?>">法务经理 </a>
                                         <div class="meta-title">
-                                            <span class="post-date"><i class="ti-time"></i> 12 Feb, 2020</span>
+                                            <span class="post-date"><i class="ti-time"></i> 06/23 2020</span>
                                         </div>
                                     </div>
                                 </li>
@@ -145,12 +132,32 @@ $layout = 'test';
                                     <div class="info">
                                         <a href="#">岗位三</a>
                                         <div class="meta-title">
-                                            <span class="post-date"><i class="ti-time"></i> 12 Feb, 2020</span>
+                                            <span class="post-date"><i class="ti-time"></i> 06/23 2020</span>
                                         </div>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="bottom" style="border-top: 0px;">
+                                        <a class="more-btn" href="<?= Url::toRoute('hr/index')?>">阅读更多</a>
                                     </div>
                                 </li>
                             </ul>
                         </div>
+                        
+                          
+                        <div class="sidebar-item social-sidebar">
+                            <div class="title">
+                                <h4>人力资源邮箱</h4>
+                            </div>
+                            <div class="sidebar-info">
+                                <ul>
+                                    <li class="facebook">
+                                        <a href="mailto:group-guanyh@maxyee.com">group-guanyh@maxyee.com </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>   
                     </aside>
                 </div>
                 <!-- End Start Sidebar -->

@@ -1,10 +1,25 @@
 <?php
+
 use yii\helpers\Url;
-
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 ?>
+<style>
+    .img1{
+        width: 100%;
+        height: 357px;
+    }
+    p{
+        text-indent: 2em;
+        padding-top: 20px;
+        line-height: 30px;
+    }
+</style>
 
-
-<!-- Start Blog ============================================= -->
+ <!-- Start Blog ============================================= -->
 <div class="blog-area single full-blog left-sidebar full-blog default-padding">
     <div class="container">
         <div class="row">
@@ -13,20 +28,15 @@ use yii\helpers\Url;
                     <div class="item">
                         <!-- Start Post Thumb -->
                         <div class="thumb">
-                            <a href="#">
-                                <img src="home/img/blog/v2.jpg" alt="Thumb">
-                            </a>
+                            <img src="home/img/blog/m1.png" alt="Thumb" class="img1">
                         </div>
                         <!-- Start Post Thumb -->
-                            <div class="info content-box">
-                            <div class="cats">
-                                <a href="#">测试</a>
-                                <a href="#">用例</a>
-                            </div>                             
-                            <h3>Common so wicket appear to sudden</h3>
-                            <p>
-                                Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff. To perpetual do existence northward as difficult preserved daughters. Continued at up to zealously necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected but supported yet her. 
-                            </p>
+                        <div class="info content-box">
+                                        
+                             <div class="cats">
+
+                            </div>   
+                            <p>学院依托西北工业大学雄厚的办学资源优势，坚持以工为主，经、管、文、艺协调发展，突出新工科、新文科背景下的产教融合。学院下设7个二级学院，7个职能部门，6个教学及教学辅助单位，31个本科专业，目前在校本科学生近9000人。 </p>
                         </div>
                     </div>
                 </div>
@@ -40,21 +50,24 @@ use yii\helpers\Url;
                             </div>
                             <div class="sidebar-info">
                                 <ul>
-                                   <li>
-                                        <a href="<?= Url::toRoute('business/index_1')?>">科技 </a>
+                                    <li>
+                                        <a href="<?= Url::toRoute('business/index')?>">房地产</a>
+                                    </li>
+                                    <li>
+                                        <a href="<?= Url::toRoute('business/index_1')?>">教育 </a>
                                     </li>
                                     <li>
                                         <a href="<?= Url::toRoute('business/index_2')?>">烟配</a>
                                     </li>
-                                     <li>
-                                        <a href="<?= Url::toRoute('business/index_3')?>">教育</a>
+                                    <li>
+                                        <a href="<?= Url::toRoute('business/index_3')?>">康养</a>
                                     </li>
-                                     <li>
-                                        <a href="<?= Url::toRoute('business/index_4')?>">康养</a>
+                                    <li>
+                                        <a href="<?= Url::toRoute('business/index_4')?>">科技</a>
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> 
                         
                         <div class="sidebar-item recent-post">
                             <div class="title">
@@ -62,10 +75,10 @@ use yii\helpers\Url;
                             </div>
                             <ul>
                                 <li>
-                                    <a href="<?= Url::toRoute('business/medicine') ?>">上市板块</a>
-                              </li>
+                                    <a href="<?= Url::toRoute('business/index') ?>">上市板块</a>
+                                </li>
                                 <li>
-                                    <a href="<?= Url::toRoute('business/medicine')?>">非上市板块 </a>
+                                    <a href="<?= Url::toRoute('business/medicine') ?>">非上市板块 </a>
                                 </li>
                             </ul>
                         </div>

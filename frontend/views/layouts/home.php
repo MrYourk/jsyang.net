@@ -151,10 +151,10 @@ AppAsset::register($this);
                     <li class="dropdown">
                         <a href="<?= Url::toRoute('site/about')?>" class="dropdown-toggle" data-toggle="dropdown" >走进万裕</a>
                         <ul class="dropdown-menu">
+                            <li><a href="<?= Url::toRoute('site/speech')?>">创始人致辞</a></li>
                             <li><a href="<?= Url::toRoute('site/about')?>">企业介绍</a></li>
                             <li><a href="<?= Url::toRoute('site/about1')?>">企业文化</a></li>
-                            <li><a href="<?= Url::toRoute('site/about2')?>">组织架构</a></li>
-                            <li><a href="<?= Url::toRoute('site/speech')?>">创始人致辞</a></li>
+                            <li><a href="<?= Url::toRoute('site/about2')?>">组织架构</a></li> 
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -167,8 +167,8 @@ AppAsset::register($this);
                     <li class="dropdown">
                         <a href="<?= Url::toRoute('news/news')?>" class="dropdown-toggle" data-toggle="dropdown" >新闻中心</a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?= Url::toRoute('news/news')?>">集团新闻</a></li>
-                            <li><a href="<?= Url::toRoute('news/dynamic')?>">最新公告</a></li>
+                            <li><a href="<?= Url::toRoute('news/news')?>">最新公告</a></li>
+                            <li><a href="<?= Url::toRoute('news/dynamic')?>">集团新闻</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">

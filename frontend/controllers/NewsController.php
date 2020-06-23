@@ -32,9 +32,16 @@ class NewsController extends Controller
     }
 
     /**
-     * News_one 越多更多
+     * News_one 新闻
      */
-    public function actionNews_one(){
-        return $this->render('news_one');
+    public function actionNews_1(){
+        return $this->render('news_1');
+    }
+    
+     /**
+     * News_one 信息
+     */
+    public function actionNews_2(){
+        return $this->render('news_2');
     }
 }

@@ -49,19 +49,6 @@ use yii\helpers\Url;
                 <!-- Start Sidebar -->
                 <div class="sidebar col-md-4">
                     <aside>
-                        <div class="sidebar-item search">
-                            <div class="title">
-                                <h4>搜索</h4>
-                            </div>
-                            <div class="sidebar-info">
-                                <form>
-                                    <input type="text" class="form-control">
-                                    <button type="submit">
-                                        <i class="ti-search"></i>
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
                         <div class="sidebar-item category">
                             <div class="title">
                                 <h4>加入我们</h4>
@@ -72,7 +59,7 @@ use yii\helpers\Url;
                                         <a href="<?= Url::toRoute('hr/idea')?>">人才理念 <span></span></a>
                                     </li>
                                     <li>
-                                        <a href="<?= Url::toRoute('hr/index')?>">招聘岗位 <span>3</span></a>
+                                        <a href="<?= Url::toRoute('hr/index')?>">人才招聘 <span></span></a>
                                     </li>
 
                                 </ul>

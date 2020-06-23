@@ -39,7 +39,7 @@ use yii\helpers\Url;
                             <h3>其他职位</h3>
                             <h5>岗位职责:</h5>
                             <blockquote>
-                                <p>1、建；</p>
+                                <p>1、建立和完善集团的法务管理体系，包括合同法务管理、投资法务管理、诉讼法务管理、综合法务管理；</p>
                                 <p>2、为集团各项经营管理活动及各区域公司重大经营管理活动提供法律咨询与支持，出具法律意见；</p>
                                 <p>3、对集团各类合同、协议及各区域公司上报的合同、协议进行审查，提供法律意见，保障集团的合法利益；</p>
                                 <p>4、对集团各类规章制度出具法律意见、提供法律支持；</p>
@@ -76,19 +76,6 @@ use yii\helpers\Url;
                 <!-- Start Sidebar -->
                 <div class="sidebar col-md-4">
                     <aside>
-                        <div class="sidebar-item search">
-                            <div class="title">
-                                <h4>搜索</h4>
-                            </div>
-                            <div class="sidebar-info">
-                                <form>
-                                    <input type="text" class="form-control">
-                                    <button type="submit">
-                                        <i class="ti-search"></i>
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
                         <div class="sidebar-item category">
                             <div class="title">
                                 <h4>类别列表</h4>
@@ -99,7 +86,7 @@ use yii\helpers\Url;
                                         <a href="<?= Url::toRoute('hr/idea')?>">人才理念 <span></span></a>
                                     </li>
                                     <li>
-                                        <a href="<?= Url::toRoute('hr/index')?>">招聘岗位 <span></span></a>
+                                        <a href="<?= Url::toRoute('hr/index')?>">人才招聘 <span></span></a>
                                     </li>
 
                                 </ul>

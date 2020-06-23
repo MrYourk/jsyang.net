@@ -58,16 +58,19 @@ use yii\helpers\Url;
                                         <div class="lists" data-animation="animated slideInUp">
                                             <ul>
                                                 <li>
-                                                    <i class="flaticon-hamburger"></i> 科技
+                                                    <i class="flaticon-hamburger"></i> 房地产
                                                 </li>
                                                 <li>
-                                                    <i class="flaticon-champagne-glass"></i> 烟配
+                                                    <i class="flaticon-champagne-glass"></i> 教育
                                                 </li>
                                                 <li>
-                                                    <i class="flaticon-coffee-cup"></i> 教育
+                                                    <i class="flaticon-coffee-cup"></i> 烟配
                                                 </li>
                                                 <li>
                                                     <i class="flaticon-coffee-cup"></i> 康养
+                                                </li>
+                                                <li>
+                                                    <i class="flaticon-coffee-cup"></i> 科技
                                                 </li>
                                             </ul>
                                         </div>
@@ -108,7 +111,7 @@ use yii\helpers\Url;
                 </div>
                 <div class="col-md-6 thumb-box inc-video">
                     <div class="thumb">
-                        <a href="<?= Url::toRoute('site/about')?>"><img src="home/img/about/qiantai.jpg" alt="Thumb"></a>
+                        <a href="<?= Url::toRoute('site/about')?>"><img src="home/img/about/qiantai1.jpg" alt="Thumb"></a>
                     </div>
                 </div>
             </div>
@@ -242,39 +245,23 @@ use yii\helpers\Url;
                 <div class="col-md-4 heading">
                     <h2>员工风采</h2>
                     <p>
-                        Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved. 
+                        文案采集中
                     </p>
-                    <a href="#" class="btn btn-theme border btn-md">View All</a>
+                    <!--<a href="#" class="btn btn-theme border btn-md"></a>-->
                 </div>
                 <div class="col-md-8">
                     <div class="office-environment-items text-light environment-carousel owl-carousel owl-theme">
                         <div class="item">
                             <a href="#">
-                                <img src="home/img/environment/1.jpg" alt="Thumb">
-                                <div class="overlay">
-                                    <span>体育</span>
-                                    <h4>运动设施</h4>
-                                </div>
+                                <img src="home/img/environment/yuangon.jpg" alt="Thumb">
                             </a>
                         </div>
                         <div class="item">
                             <a href="#">
                                 <img src="home/img/environment/2.jpg" alt="Thumb">
-                                <div class="overlay">
-                                    <span>工作</span>
-                                    <h4>工作站</h4>
-                                </div>
                             </a>
                         </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="home/img/environment/3.jpg" alt="Thumb">
-                                <div class="overlay">
-                                    <span>健康</span>
-                                    <h4>健身与健康</h4>
-                                </div>
-                            </a>
-                        </div>
+
                     </div>
                 </div>
             </div>
