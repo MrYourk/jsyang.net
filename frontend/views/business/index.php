@@ -3,26 +3,6 @@ use yii\helpers\Url;
 
 ?>
 
-<!-- Start Breadcrumb
-============================================= -->
-<div class="breadcrumb-area bg-fixed text-center text-light" style="background-image: url(home/img/banner/1.jpg);">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <!--<div class="breadcrumb-items">
-                    <h1>Single Left Sidebar</h1>
-                    <ul class="breadcrumb">
-                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li class="active">SIngle Left Sidebar</li>
-                    </ul>
-                </div>
-                -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Breadcrumb -->
 
 <!-- Start Blog ============================================= -->
 <div class="blog-area single full-blog left-sidebar full-blog default-padding">
@@ -61,19 +41,16 @@ use yii\helpers\Url;
                             <div class="sidebar-info">
                                 <ul>
                                    <li>
-                                        <a href="#">科技 </a>
+                                        <a href="<?= Url::toRoute('business/index_1')?>">科技 </a>
                                     </li>
                                     <li>
-                                        <a href="#">烟配</a>
+                                        <a href="<?= Url::toRoute('business/index_2')?>">烟配</a>
                                     </li>
                                      <li>
-                                        <a href="#">教育</a>
+                                        <a href="<?= Url::toRoute('business/index_3')?>">教育</a>
                                     </li>
                                      <li>
-                                        <a href="#">康养</a>
-                                    </li>
-                                     <li>
-                                        <a href="#">基金会</a>
+                                        <a href="<?= Url::toRoute('business/index_4')?>">康养</a>
                                     </li>
                                 </ul>
                             </div>

@@ -4,7 +4,87 @@ use yii\helpers\Url;
 
 ?>
 
+<!-- Start Banner
+   ============================================= -->
+<div class="banner-area">
+    <div id="bootcarousel" class="carousel slide text-large carousel-fade animate_text" data-ride="carousel">
 
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner text-light carousel-zoom">
+            <div class="item active">
+                <div class="slider-thumb bg-cover" style="background-image: url(home/img/banner/2.jpg);"></div>
+                <div class="box-table shadow dark">
+                    <div class="box-cell">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="content">
+                                        <h1 data-animation="animated slideInLeft">我们将 为您<strong>提供</strong> 最优质的 服务</h1>
+                                        <div class="lists" data-animation="animated slideInUp">
+                                            <ul>
+                                                <li>
+                                                    <i class="flaticon-hamburger"></i> 房地产
+                                                </li>
+                                                <li>
+                                                    <i class="flaticon-champagne-glass"></i> 金融
+                                                </li>
+                                                <li>
+                                                    <i class="flaticon-coffee-cup"></i> 物业管理
+                                                </li>
+                                                <li>
+                                                     <i class="flaticon-coffee-cup"></i> 康养
+                                                </li>
+                                                <li>
+                                                     <i class="flaticon-coffee-cup"></i> 公益慈善
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="slider-thumb bg-cover" style="background-image: url(home/img/banner/1.jpg);"></div>
+                <div class="box-table shadow dark">
+                    <div class="box-cell">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="content">
+                                        <h1 data-animation="animated slideInLeft">我们将 为您 <strong>输送</strong>最优质的产业链</h1>
+                                        <div class="lists" data-animation="animated slideInUp">
+                                            <ul>
+                                                <li>
+                                                    <i class="flaticon-hamburger"></i> 科技
+                                                </li>
+                                                <li>
+                                                    <i class="flaticon-champagne-glass"></i> 烟配
+                                                </li>
+                                                <li>
+                                                    <i class="flaticon-coffee-cup"></i> 教育
+                                                </li>
+                                                <li>
+                                                    <i class="flaticon-coffee-cup"></i> 康养
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Wrapper for slides -->
+
+
+    </div>
+</div>
+<!-- End Banner -->
 
 <!-- Start Our About
   ============================================= -->

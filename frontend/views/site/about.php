@@ -1,227 +1,62 @@
 <?php
 use yii\helpers\Url;
 
-$layout = 'index';
 ?>
 
-<!-- Start Breadcrumb
-============================================= -->
-<div class="breadcrumb-area bg-fixed text-center text-light" style="background-image: url(home/img/banner/3.jpg);">
+<style>
+    p{
+        text-indent: 2em;
+        font-size: 16px;
+        line-height: 30px;
+    }
+</style>
+
+<!-- Start Blog ============================================= -->
+<div class="blog-area single full-blog left-sidebar full-blog default-padding">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <!--<div class="breadcrumb-items">
-                    <h1>Single Left Sidebar</h1>
-                    <ul class="breadcrumb">
-                        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li class="active">SIngle Left Sidebar</li>
-                    </ul>
+            <div class="blog-items">
+                <div class="blog-content col-md-8">
+                    <div class="item">
+                        <div class="info content-box">                        
+                            <p><b>万裕集团</b>始创于1986年，总部位于深圳。在“万和众兴、裕民足国”的企业精神和发展理念指引下，历经30多年的发展，今天的万裕已发展成为一家以文化产业为主业，带动高等教育、房地产开发、生物制药业发展，金融投资发展，同时广涉生物制药、包装印刷、防伪技术、感光器材等多项事业，在云南、陕西、江苏、广东、香港、美国、新加坡等多地设立有产业子集团和分支机构，是拥有近佰亿资产和三千余名员工的多元化大型跨国企业集团，形成了“一体两翼、多点开花”的优势战略布局。</p>
+                            <p>30年来，在总裁袁汉源先生的带领下，万裕集团在大力发展实体经济，践行“裕民足国”企业使命的同时，倾力社会教育公益事，并取得了显著的成就。由其倡导，并躬身领航的“港澳台两岸四地青年交流火车团”公益活动已连续开展19年，两岸四地青年交流团活动的足迹及影响力已遍布祖国大江南北，为港澳台两岸四地青年的融合及交流事业做出了巨大贡献，得到了海内外一致的好评。与此同时，1993年由袁汉源先生亲任主席的中国听力医学发展基金会、中国听力医学发展(香港)基金会牵头，万裕集团倾情投入，二十多年来，已让中国千千万万聋哑儿童从无声的绝望中找回了希望。</p>
+                            <p>万裕集团旗下上市公司——陕西金叶科教集团股份有限公司（证券代码000812）,该公司是西北地区烟标印刷和烟用丝束咀棒产业的龙头企业，于1998年在深圳证券交易所挂牌上市。公司业务涉及烟草配套、高等教育、房地产、互联网智慧校园、贸易、金融等诸多领域。集团旗下西安明德理工学院是国家教育部批准设立的全日制本科独立学院，在陕西独立院校中处于领先地位。</p>
+                            <p>万裕集团信奉“德才兼备”的选才准则，倡导“追求创新、蓬勃向上”的工作氛围，践行“万和众兴、裕民足国”的企业理念，秉承“勤奋、求实、诚信、创新”的核心价值观，以“顽强拼搏，永不言败”的万裕精神，努力达成“创造卓越文化生活”的使命。</p>
+                            <p>新时代，随着集团“再创业”宏伟战略的深入落实，一颗矢志成为“一流国际企业集团”的企业之星正在冉冉升起。</p>
+                        </div>
+                    </div>
                 </div>
-                -->
+                 
+                <!-- Start Sidebar -->
+                <div class="sidebar col-md-4">
+                    <aside>
+                        <div class="sidebar-item category">
+                            <div class="title">
+                                <h4>关于万裕</h4>
+                            </div>
+                            <div class="sidebar-info">
+                                <ul>
+                                   <li>
+                                        <a href="<?= Url::toRoute('site/about')?>">企业介绍 </a>
+                                    </li>
+                                    <li>
+                                        <a href="<?= Url::toRoute('site/about1')?>">企业文化</a>
+                                    </li>
+                                     <li>
+                                        <a href="<?= Url::toRoute('site/about2')?>">组织架构</a>
+                                    </li>
+                                     <li>
+                                        <a href="<?= Url::toRoute('site/speech')?>">创始人致辞</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+                <!-- End Start Sidebar -->
             </div>
         </div>
     </div>
 </div>
-<!-- End Breadcrumb -->
-
-<!-- Start Blog
-============================================= -->
-
-
-<!-- Start Our About
-  ============================================= -->
-<div class="about-area default-padding">
-    <!-- Side Bg -->
-    <div class="side-bg">
-        <img src="home/img/shape-2.png" alt="Thumb">
-    </div>
-    <!-- End Side Bg -->
-    <div class="container">
-        <div class="row">
-            <!-- Start About -->
-            <div class="about-content">
-                <div class="col-md-6 about-items left-content">
-                    <h2>万裕房地产开发集团有限公司</h2>
-                    <p style="line-height: 33px ">
-                        <b>万裕</b>创于一九八六年的香港“汉华企业”起步，万裕集团经过二十多载的岁月洗礼，市场磨砺和文化积淀，今天已经发展成为一家以文化产业为主业，带动房地产，生物制药业发展，以感光器材、防伪技术、物业管理、建筑、贸易及包装材料为副业，在香港、美国、新加坡和中国大陆各地均有子集团和分支公司及机构，拥有近二十多亿资产和三千多名员工的多元化大型跨国企业集团.
-                    </p>
-                    <ul>
-                    </ul> 
-                </div>
-                <div class="col-md-6 thumb-box inc-video">
-                    <div class="thumb">
-                        <a href="<?= Url::toRoute('site/about')?>"><img src="home/img/about/qiantai.jpg" alt="Thumb"></a>
-                    </div>
-                </div>
-            </div>
-            <!-- End About -->
-        </div>
-    </div>
-</div>
-<!-- End Our About -->
-
-
-
-
-
-<!-- Start Services
-   ============================================= -->
-<div class="services-area carousel-shadow inc-list bg-gray default-padding" style="padding-top: 60px ">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="site-heading text-center">
-                    <h2>业务介绍</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="services-items services-carousel owl-carousel owl-theme text-center">
-                    <!-- Single Item -->
-                    <div class="item">
-                        <div class="thumb">
-                            <img src="home/img/services/1.jpg" alt="Thumb">
-                            <div class="icon">
-                                <i class="flaticon-analysis-1"></i>
-                            </div>
-                        </div>
-                        <div class="info">
-                            <h4>
-                                <a href="#">房地产</a>
-                            </h4>
-                            <div class="list">
-                                <ul>
-                                    <li>Make a budget</li>
-                                    <li>Track your expenses</li>
-                                    <li>Start saving</li>
-                                </ul>
-                            </div>
-                            <a href="#" class="btn circle btn-theme border btn-sm">阅读更多</a>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="item">
-                        <div class="thumb">
-                            <img src="home/img/services/2.jpg" alt="Thumb">
-                            <div class="icon">
-                                <i class="flaticon-plan"></i>
-                            </div>
-                        </div>
-                        <div class="info">
-                            <h4>
-                                <a href="#">金融</a>
-                            </h4>
-                            <div class="list">
-                                <ul>
-                                    <li>Provident Fund</li>
-                                    <li>Fixed deposit</li>
-                                    <li>Taxable Bonds</li>
-                                </ul>
-                            </div>
-                            <a href="#" class="btn circle btn-theme border btn-sm">阅读更多</a>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="item">
-                        <div class="thumb">
-                            <img src="home/img/services/3.jpg" alt="Thumb">
-                            <div class="icon">
-                                <i class="flaticon-piggy-bank"></i>
-                            </div>
-                        </div>
-                        <div class="info">
-                            <h4>
-                                <a href="#">教育</a>
-                            </h4>
-                            <div class="list">
-                                <ul>
-                                    <li>Money Market</li>
-                                    <li>California Municipal</li>
-                                    <li>Sure Budget</li>
-                                </ul>
-                            </div>
-                            <a href="#" class="btn circle btn-theme border btn-sm">阅读更多</a>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    <!-- Single Item -->
-                    <div class="item">
-                        <div class="thumb">
-                            <img src="assets/img/services/3.jpg" alt="Thumb">
-                            <div class="icon">
-                                <i class="flaticon-money"></i>
-                            </div>
-                        </div>
-                        <div class="info">
-                            <h4>
-                                <a href="#">康养</a>
-                            </h4>
-                            <div class="list">
-                                <ul>
-                                    <li>Direct equity</li>
-                                    <li>National Pension</li>
-                                    <li>Public Provident</li>
-                                </ul>
-                            </div>
-                            <a href="#" class="btn circle btn-theme border btn-sm">越多更多</a>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Services -->
-
-  <!-- Start Office Environment 
-    ============================================= -->
-    <div class="office-environment-area bg-gray default-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 heading">
-                    <h2>员工风采</h2>
-                    <p>
-                        Pursuit brother are had fifteen distant has. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved. 
-                    </p>
-                    <a href="#" class="btn btn-theme border btn-md">查看全部</a>
-                </div>
-                <div class="col-md-8">
-                     <div class="office-environment-items text-light environment-carousel owl-carousel owl-theme">
-                        <div class="item">
-                            <a href="#">
-                                <img src="home/img/environment/1.jpg" alt="Thumb">
-                                <div class="overlay">
-                                    <span>体育</span>
-                                    <h4>运动设施</h4>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="home/img/environment/2.jpg" alt="Thumb">
-                                <div class="overlay">
-                                    <span>工作</span>
-                                    <h4>工作站</h4>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="home/img/environment/3.jpg" alt="Thumb">
-                                <div class="overlay">
-                                    <span>健康</span>
-                                    <h4>健身与健康</h4>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Office Environment -->
+    <!-- End Blog -->

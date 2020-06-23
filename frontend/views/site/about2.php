@@ -4,7 +4,7 @@ use yii\helpers\Url;
 ?>
 
 
- <!-- Start Blog ============================================= -->
+<!-- Start Blog ============================================= -->
 <div class="blog-area single full-blog left-sidebar full-blog default-padding">
     <div class="container">
         <div class="row">
@@ -14,7 +14,7 @@ use yii\helpers\Url;
                         <!-- Start Post Thumb -->
                         <div class="thumb">
                             <a href="#">
-                                <img src="home/img/blog/v3.jpg" alt="Thumb">
+                                <img src="home/img/blog/v2.jpg" alt="Thumb">
                             </a>
                         </div>
                         <!-- Start Post Thumb -->
@@ -36,41 +36,24 @@ use yii\helpers\Url;
                     <aside>
                         <div class="sidebar-item category">
                             <div class="title">
-                                <h4>非上市板块</h4>
+                                <h4>关于万裕</h4>
                             </div>
                             <div class="sidebar-info">
                                 <ul>
-                                    <li>
-                                        <a href="<?= Url::toRoute('business/medicine1')?>">金融 </a>
+                                   <li>
+                                        <a href="<?= Url::toRoute('site/about')?>">企业介绍 </a>
                                     </li>
                                     <li>
-                                        <a href="<?= Url::toRoute('business/medicine2')?>">房地产</a>
+                                        <a href="<?= Url::toRoute('site/about1')?>">企业文化</a>
                                     </li>
-                                    <li>
-                                        <a href="<?= Url::toRoute('business/medicine3')?>">物业管理</a>
+                                     <li>
+                                        <a href="<?= Url::toRoute('site/about2')?>">组织架构</a>
                                     </li>
-                                    <li>
-                                        <a href="<?= Url::toRoute('business/medicine4')?>">康养</a>
-                                    </li>
-                                    <li>
-                                        <a href="<?= Url::toRoute('business/medicine5')?>">公益慈善</a>
+                                     <li>
+                                        <a href="<?= Url::toRoute('site/speech')?>">创始人致辞</a>
                                     </li>
                                 </ul>
                             </div>
-                        </div> 
-                        
-                        <div class="sidebar-item recent-post">
-                            <div class="title">
-                                <h4>业务板块</h4>
-                            </div>
-                            <ul>
-                                <li>
-                                    <a href="<?= Url::toRoute('business/index') ?>">上市板块</a>
-                                </li>
-                                <li>
-                                    <a href="<?= Url::toRoute('business/medicine') ?>">非上市板块 </a>
-                                </li>
-                            </ul>
                         </div>
                     </aside>
                 </div>

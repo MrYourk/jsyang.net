@@ -149,28 +149,30 @@ AppAsset::register($this);
 
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >走进万裕</a>
+                        <a href="<?= Url::toRoute('site/about')?>" class="dropdown-toggle" data-toggle="dropdown" >走进万裕</a>
                         <ul class="dropdown-menu">
                             <li><a href="<?= Url::toRoute('site/about')?>">企业介绍</a></li>
+                            <li><a href="<?= Url::toRoute('site/about1')?>">企业文化</a></li>
+                            <li><a href="<?= Url::toRoute('site/about2')?>">组织架构</a></li>
                             <li><a href="<?= Url::toRoute('site/speech')?>">创始人致辞</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >业务板块</a>
+                        <a href="<?= Url::toRoute('business/index')?>" class="dropdown-toggle" data-toggle="dropdown" >业务板块</a>
                         <ul class="dropdown-menu">
                             <li><a href="<?= Url::toRoute('business/index')?>">上市板块</a></li>
                             <li><a href="<?= Url::toRoute('business/medicine') ?>">非上市板块</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >新闻中心</a>
+                        <a href="<?= Url::toRoute('news/news')?>" class="dropdown-toggle" data-toggle="dropdown" >新闻中心</a>
                         <ul class="dropdown-menu">
                             <li><a href="<?= Url::toRoute('news/news')?>">集团新闻</a></li>
                             <li><a href="<?= Url::toRoute('news/dynamic')?>">最新公告</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >人力资源</a>
+                        <a href="<?= Url::toRoute('hr/idea')?>" class="dropdown-toggle" data-toggle="dropdown" >人力资源</a>
                         <ul class="dropdown-menu">
                             <li><a href=" <?= Url::toRoute('hr/idea')?>">人才理念</a></li>
 
@@ -180,7 +182,7 @@ AppAsset::register($this);
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >联系我们</a>
+                        <a href="<?= Url::toRoute('contact/contact')?>" class="dropdown-toggle" data-toggle="dropdown" >联系我们</a>
                         <ul class="dropdown-menu">
                             <li><a href=" <?= Url::toRoute('contact/contact')?>">联系方式</a></li>
 

@@ -21,7 +21,7 @@ class SiteController extends Controller
      * {@inheritdoc}
      */
 
-    public $layout = 'index.php';
+    public $layout = 'home';
 
 
     public function behaviors()
@@ -111,14 +111,39 @@ class SiteController extends Controller
      */
     public function actionAbout()
     {
-        $this->layout = 'home';
+
         return $this->render('about');
     }
-
-    public function actionSpeech()
+    
+    /**
+     * about_1 企业文化
+     * @return type
+     */
+    public function actionAbout1()
     {
-        $this->layout = 'home';
-        return $this->render('speech');
+        return $this->render('about1');
     }
 
+        /**
+     * about_1 组织架构
+     * @return type
+     */
+    public function actionAbout2()
+    {
+        return $this->render('about2');
+    }
+    
+
+
+    
+    /**
+     * Speech   创始人致辞
+     * @return type
+     */
+    public function actionSpeech()
+    {
+        return $this->render('speech');
+    }
+    
+    
 }

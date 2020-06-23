@@ -1,8 +1,12 @@
 <?php
+
 use yii\helpers\Url;
-
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 ?>
-
 
  <!-- Start Blog ============================================= -->
 <div class="blog-area single full-blog left-sidebar full-blog default-padding">
@@ -14,7 +18,7 @@ use yii\helpers\Url;
                         <!-- Start Post Thumb -->
                         <div class="thumb">
                             <a href="#">
-                                <img src="home/img/blog/v3.jpg" alt="Thumb">
+                                <img src="home/img/blog/.jpg" alt="Thumb">
                             </a>
                         </div>
                         <!-- Start Post Thumb -->
@@ -23,9 +27,9 @@ use yii\helpers\Url;
                                 <a href="#">测试</a>
                                 <a href="#">用例</a>
                             </div>                             
-                            <h3>Common so wicket appear to sudden</h3>
+                            <h3>medicinel</h3>
                             <p>
-                                Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff. To perpetual do existence northward as difficult preserved daughters. Continued at up to zealously necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected but supported yet her. 
+                               
                             </p>
                         </div>
                     </div>
