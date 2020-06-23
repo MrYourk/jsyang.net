@@ -7,7 +7,14 @@ use yii\helpers\Url;
  * and open the template in the editor.
  */
 ?>
+<style>
 
+    p{
+        text-indent: 2em;
+        padding-top: 20px;
+        line-height: 30px;
+    }
+</style>
  <!-- Start Blog ============================================= -->
 <div class="blog-area single full-blog left-sidebar full-blog default-padding">
     <div class="container">
@@ -22,15 +29,8 @@ use yii\helpers\Url;
                             </a>
                         </div>
                         <!-- Start Post Thumb -->
-                            <div class="info content-box">
-                            <div class="cats">
-                                <a href="#">测试</a>
-                                <a href="#">用例</a>
-                            </div>                             
-                            <h3>medicin4</h3>
-                            <p>
-                               
-                            </p>
+                        <div class="info content-box">
+                            <p>为了弘扬中国传统的人文文化，促进慈善公益事业的发展，深圳市汉源慈善公益基金会旨在通过开展形式多样、内容丰富的公益慈善活动，关爱老少边穷地区的基础教育事业，救助贫困边区的失学儿童、残障儿童，赈灾援助、帮残助教等，促进社会和谐发展，家庭和睦幸福。</p>
                         </div>
                     </div>
                 </div>

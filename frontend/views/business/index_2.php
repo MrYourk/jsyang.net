@@ -8,10 +8,6 @@ use yii\helpers\Url;
  */
 ?>
 <style>
-    .img1{
-        width: 100%;
-        height: 357px;
-    }
     p{
         text-indent: 2em;
         padding-top: 20px;
@@ -28,7 +24,7 @@ use yii\helpers\Url;
                     <div class="item">
                         <!-- Start Post Thumb -->
                         <div class="thumb">
-                            <img src="home/img/blog/m1.png" alt="Thumb" class="img1">
+                            <img src="home/img/blog/yanpei.png" alt="Thumb" >
                         </div>
                         <!-- Start Post Thumb -->
                         <div class="info content-box">
@@ -36,7 +32,7 @@ use yii\helpers\Url;
                              <div class="cats">
 
                             </div>   
-                            <p>学院依托西北工业大学雄厚的办学资源优势，坚持以工为主，经、管、文、艺协调发展，突出新工科、新文科背景下的产教融合。学院下设7个二级学院，7个职能部门，6个教学及教学辅助单位，31个本科专业，目前在校本科学生近9000人。 </p>
+                            <p>集团一直关注于烟草配套行业的发展，拥于60多项专利技术。开展烟标、烟配行业印刷及烟用滤嘴棒生产和销售，公司主导产品销售网络遍布湖北、陕西、川渝、河南、云南、贵州、江苏等全国重点烟草集团以及泰国、香港等海外市场，积累了稳定优质的客户资源，行业影响力不断扩展。 </p>
                         </div>
                     </div>
                 </div>

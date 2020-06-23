@@ -7,7 +7,14 @@ use yii\helpers\Url;
  * and open the template in the editor.
  */
 ?>
+<style>
 
+    p{
+        text-indent: 2em;
+        padding-top: 20px;
+        line-height: 30px;
+    }
+</style>
  <!-- Start Blog ============================================= -->
 <div class="blog-area single full-blog left-sidebar full-blog default-padding">
     <div class="container">
@@ -18,19 +25,12 @@ use yii\helpers\Url;
                         <!-- Start Post Thumb -->
                         <div class="thumb">
                             <a href="#">
-                                <img src="home/img/blog/.jpg" alt="Thumb">
+                                <img src="home/img/blog/fandic1.png" alt="Thumb">
                             </a>
                         </div>
                         <!-- Start Post Thumb -->
-                            <div class="info content-box">
-                            <div class="cats">
-                                <a href="#">测试</a>
-                                <a href="#">用例</a>
-                            </div>                             
-                            <h3>medicinel</h3>
-                            <p>
-                               
-                            </p>
+                            <div class="info content-box">        
+                            <p>坚持精准定位，重点布局，不断进取，探索美好生活方式 ，秉承“万家乐安居”的理念，在粤港澳大湾区的依托下，保持市场领先优势。</p>
                         </div>
                     </div>
                 </div>

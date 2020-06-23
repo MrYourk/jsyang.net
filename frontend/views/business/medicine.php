@@ -3,7 +3,14 @@ use yii\helpers\Url;
 
 ?>
 
+<style>
 
+    p{
+        text-indent: 2em;
+        padding-top: 20px;
+        line-height: 30px;
+    }
+</style>
  <!-- Start Blog ============================================= -->
 <div class="blog-area single full-blog left-sidebar full-blog default-padding">
     <div class="container">
@@ -19,14 +26,7 @@ use yii\helpers\Url;
                         </div>
                         <!-- Start Post Thumb -->
                             <div class="info content-box">
-                            <div class="cats">
-                                <a href="#">测试</a>
-                                <a href="#">用例</a>
-                            </div>                             
-                            <h3>Common so wicket appear to sudden</h3>
-                            <p>
-                                Give lady of they such they sure it. Me contained explained my education. Vulgar as hearts by garret. Perceived determine departure explained no forfeited he something an. Contrasted dissimilar get joy you instrument out reasonably. Again keeps at no meant stuff. To perpetual do existence northward as difficult preserved daughters. Continued at up to zealously necessary breakfast. Surrounded sir motionless she end literature. Gay direction neglected but supported yet her. 
-                            </p>
+                            <p>万裕集团立足于集团业务的发展愿景，承载着构建集团新金融版图的使命，秉持着“万和众兴，裕民足国”的理念，致力于成为中国最值得尊重的新金融服务机构之一。</p>
                         </div>
                     </div>
                 </div>

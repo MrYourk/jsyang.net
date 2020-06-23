@@ -9,9 +9,9 @@ use yii\helpers\Url;
 ?>
 <style>
     .img1{
-        width: 100%;
-        height: 357px;
+        width: 100%
     }
+    
     p{
         text-indent: 2em;
         padding-top: 20px;
@@ -28,7 +28,7 @@ use yii\helpers\Url;
                     <div class="item">
                         <!-- Start Post Thumb -->
                         <div class="thumb">
-                            <img src="home/img/blog/m1.png" alt="Thumb" class="img1">
+                            <img src="home/img/blog/kangyang.jpg" alt="Thumb" class="img1">
                         </div>
                         <!-- Start Post Thumb -->
                         <div class="info content-box">
@@ -36,7 +36,7 @@ use yii\helpers\Url;
                              <div class="cats">
 
                             </div>   
-                            <p>学院依托西北工业大学雄厚的办学资源优势，坚持以工为主，经、管、文、艺协调发展，突出新工科、新文科背景下的产教融合。学院下设7个二级学院，7个职能部门，6个教学及教学辅助单位，31个本科专业，目前在校本科学生近9000人。 </p>
+                            <p>积极响应国家“康养产业”发展战略布局，开启健康养老全新模式，引领“健康向上”的发展轨迹，践行“万和众兴、裕民足国”的大健康产业发展。</p>
                         </div>
                     </div>
                 </div>

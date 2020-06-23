@@ -7,7 +7,14 @@ use yii\helpers\Url;
  * and open the template in the editor.
  */
 ?>
+<style>
 
+    p{
+        text-indent: 2em;
+        padding-top: 20px;
+        line-height: 30px;
+    }
+</style>
  <!-- Start Blog ============================================= -->
 <div class="blog-area single full-blog left-sidebar full-blog default-padding">
     <div class="container">
@@ -18,19 +25,12 @@ use yii\helpers\Url;
                         <!-- Start Post Thumb -->
                         <div class="thumb">
                             <a href="#">
-                                <img src="home/img/blog/.jpg" alt="Thumb">
+                                <img src="home/img/blog/wuye.png" alt="Thumb">
                             </a>
                         </div>
                         <!-- Start Post Thumb -->
                             <div class="info content-box">
-                            <div class="cats">
-                                <a href="#">测试</a>
-                                <a href="#">用例</a>
-                            </div>                             
-                            <h3>medicine2</h3>
-                            <p>
-                               
-                            </p>
+                            <p>住宅小区的物业管理：房屋管理、房屋装修管理服务；物业共用设施设备管理服务；环境清洁卫生管理服务；绿化管理服务；安全管理服务包括物业管理区域内的治安防范、消防管理和车辆管理三大方面；文化、娱乐服务；其它同时惠及全体业主、使用人的服务；</p>
                         </div>
                     </div>
                 </div>
