@@ -136,7 +136,7 @@ AppAsset::register($this);
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="<?= Url::toRoute('site/index')?>">
-                    <img src="/home/img/logo.png" class="logo" alt="Logo">
+                    <img src="home/img/logo.png" class="logo" alt="Logo">
                 </a>
             </div>
             <!-- End Header Navigation -->
