@@ -275,7 +275,7 @@ $layout = 'test';
     }
     
     var div2 = document.getElementById("con2");
-    function fun1() {
+    function fun2() {
         if (flag ^= true) {
             div2.style.display = "block";    // 显示
         } else {

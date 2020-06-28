@@ -4,7 +4,10 @@ use yii\helpers\Url;
 ?>
 
 <style>
-
+    .img1{
+        width: 100%;
+        height: 460px;
+    }
     p{
         text-indent: 2em;
         padding-top: 20px;
@@ -21,7 +24,7 @@ use yii\helpers\Url;
                         <!-- Start Post Thumb -->
                         <div class="thumb">
                             <a href="#">
-                                <img src="home/img/blog/v3.jpg" alt="Thumb">
+                                <img src="home/img/blog/jinron.jpg" alt="Thumb" class="img1">
                             </a>
                         </div>
                         <!-- Start Post Thumb -->

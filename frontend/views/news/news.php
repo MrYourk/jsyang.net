@@ -121,33 +121,20 @@ use yii\helpers\Url;
                                     <div class="info">
                                         <a href="<?= Url::toRoute('news/news_1')?>">金叶集团与兴业银行西安分行签署战略合作协议</a>
                                         <div class="meta-title">
-                                            <span class="post-date"><i class="ti-time"></i> 10月19日, 2019</span>
+                                            <span class="post-date"><i class="ti-time"></i> 06月15日, 2020</span>
                                         </div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="thumb">
                                         <a href="#">
-                                            <img src="home/img/blog/m2" alt="Thumb">
+                                            <img src="home/img/blog/m2.png" alt="Thumb">
                                         </a>
                                     </div>
                                     <div class="info">
-                                        <a href="#">热烈庆祝明德学院二十周年院庆 </a>
+                                        <a href="<?= Url::toRoute('news/news_2')?>">明德学院在第十八届西安市青少年科普知识竞赛中喜获佳绩 </a>
                                         <div class="meta-title">
-                                            <span class="post-date"><i class="ti-time"></i> 10月19日, 2019</span>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="thumb">
-                                        <a href="#">
-                                            <img src="home/img/portfolio/4.jpg" alt="Thumb">
-                                        </a>
-                                    </div>
-                                    <div class="info">
-                                        <a href="#">热烈庆祝明德学院二十周年院庆</a>
-                                        <div class="meta-title">
-                                            <span class="post-date"><i class="ti-time"></i> 12 Feb, 2020</span>
+                                            <span class="post-date"><i class="ti-time"></i> 06月12日, 2020</span>
                                         </div>
                                     </div>
                                 </li>
