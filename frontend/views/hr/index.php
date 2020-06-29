@@ -5,11 +5,12 @@ $layout = 'test';
 ?>
 
 <style>
-    .span1{
-        cursor: pointer;
+ 
+    p{
+        line-height: 20px;
     }
-    h3{
-        color: #007540;
+    info{
+        padding: 1px;
     }
 </style>
 <!-- Start Breadcrumb
@@ -43,7 +44,7 @@ $layout = 'test';
                 <div class="blog-content col-md-8">
                     <div class="item">
                         <h3 class="span1" onclick="fun();">法务经理（工作地点：深圳）</h3>
-                        <div id="con" style="display: none" class="info content-box" > 
+                        <div class="" class="info content-box" > 
                             <h5>岗位职责:</h5>
                             <blockquote>
                                 <p>1、建立和完善集团的法务管理体系，包括合同法务管理、投资法务管理、诉讼法务管理、综合法务管理；</p>
@@ -68,26 +69,7 @@ $layout = 'test';
                             </blockquote>
                         </div>
                         
-                        <h3 class="span1" onclick="fun1();">财务部长（工作地点：深圳）</h3>
-                        <div id="con1" style="display: none" class="info content-box">
-                            <h5>岗位职责:</h5>
-                            <blockquote>
-                                <p>1、主持集团财务战略规划的制定，负责集团及分子公司财务管理及内部控制，建立科学的财务核算体系及财务监控体系，进行有效内部控制；</p>
-                                <p>2、制定集团资金运营计划、融资策略及计划，管理资金成本和收益，监督资金管理报告和预、决算，确保以最合理的资本成本获得集团所需的资金；</p>
-                                <p>3、主持对重大项目和经营活动的风险评估、指导、跟踪和财务风险控制；揭示潜在的经营管理问题，控制财务、税务风险，供集团领导层决策参考；</p>
-                                <p>4、建立、维护与主要金融机构、税务机构的良好关系，不断开拓融资渠道，完善集团内外部的理财环境。</p>
-                          
-                            </blockquote>
-                            <h5>任职资格：</h5>
-                            <blockquote>
-                                <p>1、本科及以上学历，法学相关专业，取得法律职业资格证；</p>
-                                <p>2、3-5年相关工作经验；</p>
-                                <p>3、熟悉公司法，合同法，经济法，物权法等，掌握公司治理诉讼等专业技能；</p>
-                                <p>4、具备较强的文字表达能力、组织协调能力和沟通能力；</p>
-                                <p>5、思维活跃，有良好的责任心和职业素养具备出色的沟通应变能力和沉稳细致的行事风格</p>
-                            </blockquote>
-                        </div>
-                        
+                        <!--                        
                         <h3 class="span1" onclick="fun2();">总经理（工作地点：云南玉溪）</h3>
                         <div id="con2" style="display: none" class="info content-box">
                             <h5>岗位职责:</h5>
@@ -208,6 +190,7 @@ $layout = 'test';
                                 <p> 5、具备独立制定产品开发计划的能力。</p>
                             </blockquote>
                         </div>
+                        -->
                     </div>
                 </div>
 
@@ -238,7 +221,7 @@ $layout = 'test';
                             <div class="sidebar-info">
                                 <ul>
                                     <li class="facebook">
-                                        <a href="mailto:group-guanyh@maxyee.com">group-guanyh@maxyee.com </a>
+                                        <a href="mailto:group-guanyh@maxyee.com">group-hufp@maxyee.com </a>
                                     </li>
                                 </ul>
                             </div>
@@ -252,6 +235,8 @@ $layout = 'test';
 </div>
 <!-- End Blog -->
 
+
+<!--
 <script type="text/javascript">
     var flag = false;
     var div = document.getElementById("con");
@@ -328,3 +313,4 @@ $layout = 'test';
         }
     }
 </script>
+-->
