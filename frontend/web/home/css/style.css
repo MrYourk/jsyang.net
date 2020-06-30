@@ -53,6 +53,65 @@ Table of contents
 ** General Styles for HTML tags
 */
 
+@media screen and (max-width:479px) {
+    .card {
+        width: 97%;
+    }
+    .layout-img {
+        width: 48%;
+    }
+    .footer-v3 {
+        margin: auto 0;
+        margin-top: 0px;
+    }
+    .center-wrapper {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .rongyu-box {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+        width: 97%;
+    }
+    .layout-img {
+        width: 48%;
+    }
+    .footer-v3 {
+        margin: auto 0;
+        margin-top: 0px;
+    }
+    .center-wrapper {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .rongyu-box {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .card {
+        width: 97%;
+    }
+    .layout-img {
+        width: 48%;
+    }
+    .footer-v3 {
+        margin: auto 0;
+        margin-top: 0px;
+    }
+    .center-wrapper {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .rongyu-box {
+        width: 100%;
+    }
+}
 * {
   padding: 0;
   margin: 0;

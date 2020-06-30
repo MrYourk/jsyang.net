@@ -22,7 +22,7 @@ use yii\helpers\Url;
                     <div class="item">
                         <div class="info content-box">                      
                             <h3>企业理念</h3>
-                            <p>万世基业，裕泽寰宇 &nbsp;&nbsp;&nbsp;&nbsp;万和众兴，裕民足国</p>
+                            <p>万和众兴，裕民足国</p>
                             <h3>企业精神</h3>
                             <p>诚信丶务实丶团队、创新</p>
                             <h3>企业使命</h3>

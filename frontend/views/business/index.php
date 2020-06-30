@@ -16,7 +16,7 @@ use yii\helpers\Url;
 </style>
 
  <!-- Start Blog ============================================= -->
-<div class="blog-area single full-blog left-sidebar full-blog default-padding">
+<div class="blog-area single full-blog left-sidebar full-blog default-padding" class="card">
     <div class="container">
         <div class="row">
             <div class="blog-items">

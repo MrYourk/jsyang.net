@@ -18,10 +18,11 @@ AppAsset::register($this);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Bussa - Consulting & Business Template">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
 
 
     <!-- ========== Page Title ========== -->
-    <title>万裕房地产开发集团</title>
+    <title>万裕（集团）有限公司</title>
     <?php $this->head()?>
 
     <!-- ========== Favicon Icon ========== -->

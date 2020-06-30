@@ -25,7 +25,8 @@ use yii\helpers\Url;
                     <div class="item">
                         <!-- Start Post Thumb -->
                         <div class="thumb">
-                            <img src="home/img/blog/keji.jpg" alt="Thumb" >
+                           
+                            <img src="home/img/blog/keji1.png" alt="Thumb" >
                         </div>
                         <!-- Start Post Thumb -->
                         <div class="info content-box">
@@ -33,7 +34,7 @@ use yii\helpers\Url;
                              <div class="cats">
 
                             </div>   
-                            <p>跨入全面信息化时代，积极寻求科技战略性新兴产业-“智慧校园”无线网络开发，涉及云计算、大数据、移动互联、物联网、信息安全等领域，主要业务领域涵盖系统集成、软件开发、IT规划咨询、系统运维等。</p>
+                            <p>公司业务方向涉及云计算、大数据、移动互联、物联网、信息安全等领域，主要业务领域涵盖系统集成、软件开发、IT规划咨询、系统运维等。公司在高校教育领域深耕多年，已成功培育出“智慧校园”互联网项目，并深度介入校园网络管理、教学管理的信息化系统，同时还具备了丰富的在线教育、公开课、技能培训等教育教学共享资源与“慕课”平台知识体系的积累。公司目前已在陕西、河南、山东、湖北、云南等地的多所万人规模以上高校成功实施了校园无线网络的投资建设与运营。</p>
                         </div>
                     </div>
                 </div>
