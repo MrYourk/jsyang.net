@@ -36,13 +36,12 @@ AppAsset::register($this);
         ],
     ]);
     $menuItems = [
-        ['label' => Yii::t('common','Home'), 'url' => ['/site/index']],
-        ['label' => Yii::t('common','About'), 'url' => ['/site/about']],
-        ['label' => Yii::t('common','Contact'), 'url' => ['/site/contact']],
-        ['label' => Yii::t('common','News'), 'url' => ['/site/news']],
-        ['label' => Yii::t('common','Video'), 'url' => ['/site/video']],
-        ['label' => Yii::t('common','Job'), 'url' => ['/site/Job']],
-        ['label' => Yii::t('common','Lists'), 'url' => ['/site/lists']],
+        ['label' => Yii::t('common','首页'), 'url' => ['/site/index']],
+        ['label' => Yii::t('common','关于万裕'), 'url' => ['/site/about']],
+        ['label' => Yii::t('common','业务板块'), 'url' => ['/site/contact']],
+        ['label' => Yii::t('common','新闻中心'), 'url' => ['/site/news']],
+        ['label' => Yii::t('common','人力资源'), 'url' => ['/site/video']],
+        ['label' => Yii::t('common','联系我们'), 'url' => ['/site/Job']],
     ];
     if (Yii::$app->user->isGuest) {
 

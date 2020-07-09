@@ -145,5 +145,11 @@ class SiteController extends Controller
         return $this->render('speech');
     }
     
-    
+    /**
+     * Evolution    集团大事记
+     */
+    public function actionEvolution()
+    {
+        return $this->render('evolution');
+    }
 }

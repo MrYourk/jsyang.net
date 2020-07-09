@@ -12,6 +12,14 @@ use yii\helpers\Url;
         padding: 0px;
         padding-top: 20px;
     }
+    .qianm{
+        width: 100px;
+        float: right;
+    }
+    .imgs{
+        width: 99%;
+        height: 550px;
+    }
 </style>
 
 <!-- Start Blog ============================================= -->
@@ -24,7 +32,7 @@ use yii\helpers\Url;
                         <!-- Start Post Thumb -->
                         <div class="thumb">
                             <a href="#">
-                                <img src="home/img/blog/v1.jpg" alt="Thumb">
+                                <img src="home/img/blog/v1.png" alt="Thumb"  class="imgs">
                             </a>
                         </div>
                         <!-- Start Post Thumb -->
@@ -42,6 +50,8 @@ use yii\helpers\Url;
                             <p>再创业，激情澎湃；看今朝，勇铸新峰；</p>
                             <p>布全局，多点开花；万世基，与君共勉。</p>
                             <p>我们愿与您一道为实现目标孜孜不倦的奋斗，您的贡献将成为实现集团战略愿景的重要基石。</p>
+                            <p style="text-align: right;"><b>董事局主席：袁汉源<b></p>
+                            <p style="text-align: right;">2020 年 3 月 28 日</p>
                             </div>
                     </div>
                 </div>
@@ -67,7 +77,9 @@ use yii\helpers\Url;
                                      <li>
                                         <a href="<?= Url::toRoute('site/about2')?>">组织架构</a>
                                     </li>
-
+                                    <li>
+                                        <a href="<?= Url::toRoute('site/about2')?>">大事记</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

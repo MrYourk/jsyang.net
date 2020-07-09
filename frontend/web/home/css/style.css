@@ -53,6 +53,10 @@ Table of contents
 ** General Styles for HTML tags
 */
 
+
+.play{
+    text-align: center;
+}
 @media screen and (max-width:479px) {
     .card {
         width: 97%;
@@ -1498,7 +1502,7 @@ div#bootcarousel {
   content: "";
   height: 100%;
   width: 100%;
-  background: url(assets/img/shape.png);
+  background: url(home/img/shape.png);
   background-position: left bottom;
   background-repeat: no-repeat;
   z-index: -1;
@@ -4155,13 +4159,13 @@ i.fas.fa-clock {
 /* ============================================================== 
      # Footer
 =================================================================== */
-
+/*
 footer {
-  background-image: url(assets/img/dotted-bg.png) !important;
+  background-image: url(home/img/dotted-bg.png) !important;
   background-repeat: no-repeat !important;
   background-position: center center !important;
 }
-
+*/
 footer .f-items {
   float: left;
   width: 100%;

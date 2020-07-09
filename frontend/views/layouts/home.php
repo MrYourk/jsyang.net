@@ -17,7 +17,7 @@ AppAsset::register($this);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Bussa - Consulting & Business Template">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=yes">
     <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
 
 
@@ -40,6 +40,10 @@ AppAsset::register($this);
     <link href="/home/css/bootsnav.css" rel="stylesheet" />
     <link href="/home/css/style.css" rel="stylesheet">
     <link href="/home/css/responsive.css" rel="stylesheet" />
+    <link rel='stylesheet' id='theme-styles-css'  href="/home/css/styles.min.css" type='text/css' />
+    <link rel='stylesheet' id='js_composer_front-css'  href="/home/css/js_composer.min.css" type='text/css' />
+    <link rel='stylesheet' id='theme-options-css'  href="/home/css/theme-options-production.css"  type='text/css' />
+    <link rel='stylesheet' id='theme-options-css'  href="/home/css/production.css"  type='text/css' />
     <!-- ========== End Stylesheet ========== -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -124,11 +128,7 @@ AppAsset::register($this);
         <div class="container">
 
             <!-- Start Atribute Navigation -->
-            <div class="attr-nav">
-                <ul>
-                    <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-                </ul>
-            </div>
+           
             <!-- End Atribute Navigation -->
 
             <!-- Start Header Navigation -->
@@ -156,6 +156,7 @@ AppAsset::register($this);
                             <li><a href="<?= Url::toRoute('site/about')?>">企业介绍</a></li>
                             <li><a href="<?= Url::toRoute('site/about1')?>">企业文化</a></li>
                             <li><a href="<?= Url::toRoute('site/about2')?>">组织架构</a></li> 
+                            <li><a href="<?= Url::toRoute('site/about2')?>">大事记</a></li> 
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -233,7 +234,6 @@ AppAsset::register($this);
 <script src="/home/js/jquery.appear.js"></script>
 <script src="/home/js/jquery.easing.min.js"></script>
 <script src="/home/js/jquery.magnific-popup.min.js"></script>
-<script src="/home/js/modernizr.custom.13711.js"></script>
 <script src="/home/js/owl.carousel.min.js"></script>
 <script src="/home/js/wow.min.js"></script>
 <script src="/home/js/progress-bar.min.js"></script>
@@ -243,7 +243,8 @@ AppAsset::register($this);
 <script src="/home/js/YTPlayer.min.js"></script>
 <script src="/home/js/bootsnav.js"></script>
 <script src="/home/js/main.js"></script>
-
+<script src="/home/js/modernizr.custom.13711.js"></script>
+<script type='text/javascript' src="/home/js/jquery.js" ></script>
 
 </body>
 </html>

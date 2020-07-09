@@ -12,7 +12,7 @@ use yii\helpers\Url;
         <!-- Wrapper for slides -->
         <div class="carousel-inner text-light carousel-zoom">
             <div class="item active">
-                <div class="slider-thumb bg-cover" style="background-image: url(home/img/banner/2.jpg);"></div>
+                <div class="slider-thumb bg-cover" style="background-image: url(home/img/banner/1.jpg);"></div>
                 <div class="box-table shadow dark">
                     <div class="box-cell">
                         <div class="container">
@@ -47,7 +47,7 @@ use yii\helpers\Url;
                 </div>
             </div>
             <div class="item">
-                <div class="slider-thumb bg-cover" style="background-image: url(home/img/banner/1.jpg);"></div>
+                <div class="slider-thumb bg-cover" style="background-image: url(home/img/banner/2.jpg);"></div>
                 <div class="box-table shadow dark">
                     <div class="box-cell">
                         <div class="container">
@@ -275,12 +275,6 @@ use yii\helpers\Url;
                                 <img src="home/img/environment/yuangon.jpg" alt="Thumb">
                             </a>
                         </div>
-                        <div class="item">
-                            <a href="#">
-                                <img src="home/img/environment/2.jpg" alt="Thumb">
-                            </a>
-                        </div>
-
                     </div>
                 </div>
             </div>

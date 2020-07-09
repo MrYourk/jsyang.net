@@ -14,7 +14,7 @@ use yii\helpers\Url;
                         <!-- Start Post Thumb -->
                         <div class="thumb">
                             <a href="#">
-                                <img src="home/img/blog/jiagou.png" alt="Thumb">
+                                <img src="home/img/blog/jiagou.jpg" alt="Thumb">
                             </a>
                         </div>
                     </div>
@@ -40,6 +40,9 @@ use yii\helpers\Url;
                                     </li>
                                      <li>
                                         <a href="<?= Url::toRoute('site/about2')?>">组织架构</a>
+                                    </li>
+                                    <li>
+                                        <a href="<?= Url::toRoute('site/about2')?>">大事记</a>
                                     </li>
                                 </ul>
                             </div>

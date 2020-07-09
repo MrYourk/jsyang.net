@@ -89,6 +89,9 @@ use yii\helpers\Url;
                                      <li>
                                         <a href="<?= Url::toRoute('site/about2')?>">组织架构</a>
                                     </li>
+                                    <li>
+                                        <a href="<?= Url::toRoute('site/about2')?>">大事记</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

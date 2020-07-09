@@ -26,7 +26,7 @@ use yii\helpers\Url;
                         <!-- Start Post Thumb -->
                         <div class="thumb">
                            
-                            <img src="home/img/blog/keji1.png" alt="Thumb" >
+                            <img src="home/img/business/keji1.png" alt="Thumb" >
                         </div>
                         <!-- Start Post Thumb -->
                         <div class="info content-box">

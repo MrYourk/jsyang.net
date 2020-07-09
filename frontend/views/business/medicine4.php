@@ -23,9 +23,9 @@ use yii\helpers\Url;
                 <div class="blog-content col-md-8">
                     <div class="item">
                         <!-- Start Post Thumb -->
-                        <div class="thumb">
+                        <div class="thumb" >
                             <a href="#">
-                                <img src="home/img/blog/jijin.jpg" alt="Thumb">
+                                <img src="home/img/business/jijin.jpg" alt="Thumb" style="margin: 0 auto;">
                             </a>
                         </div>
                         <!-- Start Post Thumb -->

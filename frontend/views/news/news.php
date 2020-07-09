@@ -50,7 +50,7 @@ use yii\helpers\Url;
                             <div class="item">
                                 <div class="thumb">
                                     <a href="#">
-                                        <img src="home/img/blog/m2.png" alt="Thumb" class="img1">
+                                        <img src="home/img/blog/m2.jpg" alt="Thumb" class="img1">
                                     </a>
 
                                 </div>
@@ -128,7 +128,7 @@ use yii\helpers\Url;
                                 <li>
                                     <div class="thumb">
                                         <a href="#">
-                                            <img src="home/img/blog/m2.png" alt="Thumb">
+                                            <img src="home/img/blog/m2.jpg" alt="Thumb">
                                         </a>
                                     </div>
                                     <div class="info">
