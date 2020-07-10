@@ -18,27 +18,56 @@ use yii\helpers\Url;
             <div class="blog-items">
                 <div class="blog-content col-md-8">
                     <div class="item-box">
+                        
                         <!-- Single Item -->
                         <div class="single-item">
                             <div class="item">
                                 <div class="thumb">
-                                    <a href="<?= Url::toRoute('news/news_1')?>">
-                                        <img src="home/img/blog/jinye.jpg" alt="Thumb" class="img1">
+                                    <a href="<?= Url::toRoute('news/news_5')?>">
+                                        <img src="home/img/business/07/10.jpg"/>
                                     </a>
 
                                 </div>
                                 <div class="info">
                                     <div class="cats">
-                                        <a href="http://www.jinyegroup.cn/" target="_blank">来源：陕西金叶</a>
+                                        <a href="http://www.npumd.edu.cn/" target="_blank">来源：明德学院</a>
                                     </div>
                                     <h4>
-                                        <a href="<?= Url::toRoute('news/news_1')?>" >金叶集团与兴业银行西安分行签署战略合作协议</a>
+                                        <a href="<?= Url::toRoute('news/news_5')?>" >新征程 再出发——集团公司召开明德学院转设工作表彰大会</a>
                                     </h4>
                                     <p>
-                                        6 月 12 日下午，金叶集团裕兴业银行西安分行银企战略合作签约协议在西安明德理工学院隆重举行
+                                       2020年3月，经国家教育部批准，西北工业大学明德学院成功转设，正式更名为“西安明德理工学院”，成为陕西省首家成功转设的高校。
                                     </p>
                                     <div class="bottom">
-                                        <a class="more-btn" href="<?= Url::toRoute('news/news_1')?>">阅读更多</a>
+                                        <a class="more-btn" href="<?= Url::toRoute('news/news_5')?>">阅读更多</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+                        
+                        
+                        <!-- Single Item -->
+                        <div class="single-item">
+                            <div class="item">
+                                <div class="thumb">
+                                    <a href="<?= Url::toRoute('news/news_4')?>">
+                                        <img src="home/img/business/07/5.jpg"/>
+                                    </a>
+
+                                </div>
+                                <div class="info">
+                                    <div class="cats">
+                                        <a href="http://www.npumd.edu.cn/" target="_blank">来源：明德学院</a>
+                                    </div>
+                                    <h4>
+                                        <a href="<?= Url::toRoute('news/news_4')?>" >坚持质量数量并重 着力提升办学品牌——集团公司教育产业招生工作领导小组全体会议在明德学院召开</a>
+                                    </h4>
+                                    <p>
+                                        6月28日下午，集团公司教育产业招生工作领导小组第一次全体会议在明德学院明志楼第一会议室召开。
+                                    </p>
+                                    <div class="bottom">
+                                        <a class="more-btn" href="<?= Url::toRoute('news/news_4')?>">阅读更多</a>
                                     </div>
                                 </div>
                             </div>
@@ -49,26 +78,29 @@ use yii\helpers\Url;
                         <div class="single-item">
                             <div class="item">
                                 <div class="thumb">
-                                    <a href="#">
-                                        <img src="home/img/blog/m2.jpg" alt="Thumb" class="img1">
+                                    <a href="<?= Url::toRoute('news/news_3')?>">
+                                        <img src="home/img/business/07/2.jpg"/>
                                     </a>
 
                                 </div>
                                 <div class="info">
                                     <div class="cats">
-                                        <a href="#">来源：明德学院</a>
+                                        <a href="http://www.jinyegroup.cn/">来源：陕西金叶</a>
                                     </div>
                                     <h4>
-                                        <a href="<?= Url::toRoute('news/news_2')?>">明德学院在第十八届西安市青少年科普知识竞赛中喜获佳绩 </a>
+                                        <a href="<?= Url::toRoute('news/news_3')?>">金叶集团党委召开庆祝中国共产党 成立99周年暨“优秀党员”表彰大会 </a>
                                     </h4>
-                                    <p></p>
+                                    <p>
+                                        为庆祝建党99周年，重温党的历史，经金叶集团党委三届五次全委（扩大）会议决定，在建党99周年之际召开庆祝中国共产党成立99周年暨“优秀党员”表彰大会，集中表彰在集团改革发展、创新创效中涌现出的优秀共产党员。
+                                    </p>
                                     <div class="bottom">
-                                        <a class="more-btn" href="<?= Url::toRoute('news/news_2')?>">阅读更多</a>
+                                        <a class="more-btn" href="<?= Url::toRoute('news/news_3')?>">阅读更多</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Item -->
+                        <!-- End Single Item -->                        
+                        
                     </div>
                     <!-- Pagination -->
                     <div class="pagi-area">
@@ -115,11 +147,24 @@ use yii\helpers\Url;
                                 <li>
                                     <div class="thumb">
                                         <a href="#">
-                                            <img src="home/img/blog/jinye.jpg" alt="Thumb">
+                                            <img src="home/img/business/07/10.jpg"/>
                                         </a>
                                     </div>
                                     <div class="info">
-                                        <a href="<?= Url::toRoute('news/news_1')?>">金叶集团与兴业银行西安分行签署战略合作协议</a>
+                                        <a href="<?= Url::toRoute('news/news_5')?>">新征程 再出发——集团公司召开明德学院转设工作表彰大会</a>
+                                        <div class="meta-title">
+                                            <span class="post-date"><i class="ti-time"></i> 06月日, 2020</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="thumb">
+                                        <a href="#">
+                                            <img src="home/img/business/07/5.jpg"/>
+                                        </a>
+                                    </div>
+                                    <div class="info">
+                                        <a href="<?= Url::toRoute('news/news_4')?>">坚持质量数量并重 着力提升办学品牌——集团公司教育产业招生工作领导小组全体会议在明德学院召开</a>
                                         <div class="meta-title">
                                             <span class="post-date"><i class="ti-time"></i> 06月15日, 2020</span>
                                         </div>
@@ -128,13 +173,13 @@ use yii\helpers\Url;
                                 <li>
                                     <div class="thumb">
                                         <a href="#">
-                                            <img src="home/img/blog/m2.jpg" alt="Thumb">
+                                           <img src="home/img/business/07/2.jpg"/>
                                         </a>
                                     </div>
                                     <div class="info">
-                                        <a href="<?= Url::toRoute('news/news_2')?>">明德学院在第十八届西安市青少年科普知识竞赛中喜获佳绩 </a>
+                                        <a href="<?= Url::toRoute('news/news_3')?>">金叶集团党委召开庆祝中国共产党 成立99周年暨“优秀党员”表彰大会 </a>
                                         <div class="meta-title">
-                                            <span class="post-date"><i class="ti-time"></i> 06月12日, 2020</span>
+                                            <span class="post-date"><i class="ti-time"></i> 07月02日, 2020</span>
                                         </div>
                                     </div>
                                 </li>

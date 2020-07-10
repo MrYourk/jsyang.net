@@ -20,12 +20,24 @@ use yii\helpers\Url;
                         <div class="single-item">
                             <div class="item">
                                 <div class="info">
+                                    
+                                    
+                                    <h4><a href="<?= Url::toRoute('news/news_5')?>">新征程 再出发——集团公司召开明德学院转设工作表彰大会</a> </h4>
+                                    <div class="cats"><a href="#" class="list"> 7月7日  2020年</a></div>
+                                    
+                                    <h4><a href="<?= Url::toRoute('news/news_4')?>">坚持质量数量并重 着力提升办学品牌——集团公司教育产业招生工作领导小组全体会议在明德学院召开</a> </h4>
+                                    <div class="cats"><a href="#" class="list"> 7月7日  2020年</a></div>
+                                    
+                                    <h4><a href="<?= Url::toRoute('news/news_3')?>">金叶集团党委召开庆祝中国共产党 成立99周年暨“优秀党员”表彰大会</a> </h4>
+                                    <div class="cats"><a href="#" class="list"> 7月2日  2020年</a></div>
+                                    
                                     <h4><a href="<?= Url::toRoute('news/news_2')?>">热烈庆祝明德学院二十周年院庆</a> </h4>
                                     <div class="cats"><a href="#" class="list"> 6月15日  2020年</a></div>
                                     
                                     <h4><a href="<?= Url::toRoute('news/news_1')?>">金叶集团与兴业银行西安分行签署战略合作协议</a> </h4>
                                     <div class="cats"><a href="#" class="list"> 6月12日  2020年</a></div>
-                                  
+                                    
+
                                 </div>
                             </div>
                         </div>
