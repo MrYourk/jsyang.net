@@ -40,10 +40,6 @@ AppAsset::register($this);
     <link href="/home/css/bootsnav.css" rel="stylesheet" />
     <link href="/home/css/style.css" rel="stylesheet">
     <link href="/home/css/responsive.css" rel="stylesheet" />
-    <link rel='stylesheet' id='theme-styles-css'  href="/home/css/styles.min.css" type='text/css' />
-    <link rel='stylesheet' id='js_composer_front-css'  href="/home/css/js_composer.min.css" type='text/css' />
-    <link rel='stylesheet' id='theme-options-css'  href="/home/css/theme-options-production.css"  type='text/css' />
-    <link rel='stylesheet' id='theme-options-css'  href="/home/css/production.css"  type='text/css' />
     <!-- ========== End Stylesheet ========== -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -244,7 +240,6 @@ AppAsset::register($this);
 <script src="/home/js/bootsnav.js"></script>
 <script src="/home/js/main.js"></script>
 <script src="/home/js/modernizr.custom.13711.js"></script>
-<script type='text/javascript' src="/home/js/jquery.js" ></script>
 
 </body>
 </html>
